@@ -114,7 +114,7 @@ params:
       - company: "Gameloft"
         companyUrl: "https://www.gameloft.com"
         jobs:
-          - name: "DevOps Engineer | IT & Technical Support"
+          - name: "DevOps Engineer"
             date: "Nov 2024 - Present"
             content: |
               Providing internal IT support and operational maintenance for software and cloud-based gaming services.
@@ -129,7 +129,7 @@ params:
       - company: "Microsoft"
         companyUrl: "https://www.microsoft.com"
         jobs:
-          - name: "Site Reliability Engineer (SRE) | T1/T2 Support"
+          - name: "Site Reliability Engineer | T1/T2 Support"
             date: "Jan 2023 - Nov 2024"
             content: |
               Delivered internal technical support for Microsoft engineers focusing on service stability and reliability.
@@ -144,7 +144,7 @@ params:
       - company: "Sportify"
         companyUrl: "#"
         jobs:
-          - name: "Data Engineer | System Support"
+          - name: "Data Engineer"
             date: "Mar 2022 - Jan 2023"
             content: |
               Supported data pipelines and SQL database operations to ensure reliable data processing.
