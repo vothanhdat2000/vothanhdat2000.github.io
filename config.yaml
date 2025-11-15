@@ -1,0 +1,284 @@
+baseURL: "https://vothanhdat2000.github.io/"
+languageCode: "en-us"
+title: "VTD Portfolio | DevOps Engineer"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "VTD Portfolio"
+  description: "DevOps Engineer | SRE | Data Engineer - 3+ years experience at Microsoft & Gameloft"
+  favicon: "/fav.png"
+
+  useBootstrapCDN: false
+  animate: true
+
+  theme:
+    defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Võ Thành Đạt"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: true
+      disableAchievements: false
+      disableContact: false
+
+  # Hero Section
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Võ Thành Đạt"
+    subtitle: "DevOps Engineer | SRE | Data Engineer"
+    content: "3+ years delivering reliable systems at **Microsoft** & **Gameloft**. Passionate about automation, cloud infrastructure, monitoring, and system reliability."
+    image: /images/profile.jpg
+    bottomImage:
+      enable: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/vothanhdat
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/vothanhdat
+        - icon: fas fa-envelope
+          url: mailto:vothanhdat20012000@gmail.com
+
+  # About Section
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/personal.jpg"
+    content: |-
+      I'm a **DevOps Engineer** with over 3 years of experience in system reliability, cloud infrastructure, and automation.
+      
+      Currently working at **Gameloft**, I specialize in maintaining high-availability services, monitoring with **Prometheus & Grafana**, and supporting development teams with robust DevOps practices.
+      
+      Previously, I worked as a **Site Reliability Engineer at Microsoft**, where I focused on service stability, incident management, and automation using **PowerShell** and **Azure DevOps**.
+      
+      📍 Based in Ho Chi Minh City, Vietnam
+      
+      📧 vothanhdat20012000@gmail.com | 📱 0938940150
+    skills:
+      enable: true
+      title: "Technical Skills & Tools:"
+      items:
+        - "☁️ Cloud: Azure, AWS (Certified Cloud Practitioner)"
+        - "📊 Monitoring: Prometheus, Grafana"
+        - "🔧 DevOps: Azure DevOps, GitHub Actions, CI/CD"
+        - "⚙️ Automation: PowerShell, Python, Bash scripting"
+        - "🐳 Containers: Docker, Kubernetes (Certified)"
+        - "💾 Data: SQL, Data Pipelines, ETL"
+        - "🔐 Security: IAM, MFA, Compliance & Auditing"
+        - "🖥️ Systems: Windows,Linux"
+        - "🎫 Tools: Jira, Confluence, Microsoft 365, Dynamics CRM"
+
+  # Experience Section
+  experience:
+    enable: true
+    items:
+      - company: "Gameloft"
+        companyUrl: "https://www.gameloft.com"
+        jobs:
+          - name: "DevOps Engineer | IT & Technical Support"
+            date: "Nov 2024 - Present"
+            content: |
+              Providing internal IT support and operational maintenance for software and cloud-based gaming services.
+              
+              **Key Responsibilities:**
+              - Monitor service health and incidents using **Prometheus** and **Grafana**
+              - Provide remote support via **TeamViewer**, **Quick Assist**, and **Microsoft Teams**
+              - Maintain technical documentation for troubleshooting and issue resolution
+              - Track access permissions and collaborate with engineering teams
+              - Escalate critical issues to ensure minimal downtime
+
+      - company: "Microsoft"
+        companyUrl: "https://www.microsoft.com"
+        jobs:
+          - name: "Site Reliability Engineer (SRE) | T1/T2 Support"
+            date: "Jan 2023 - Nov 2024"
+            content: |
+              Delivered internal technical support for Microsoft engineers focusing on service stability and reliability.
+              
+              **Key Achievements:**
+              - Diagnosed and resolved incidents related to **identity**, **networking**, and **Azure services**
+              - Used **Azure DevOps** and **Microsoft Dynamics CRM** for incident tracking
+              - Developed **PowerShell scripts** for automating diagnostics and log collection
+              - Supported compliance documentation and root-cause analysis for internal audits
+              - Minimized service downtime through proactive monitoring and escalation
+
+      - company: "Sportify"
+        companyUrl: "#"
+        jobs:
+          - name: "Data Engineer | System Support"
+            date: "Mar 2022 - Jan 2023"
+            content: |
+              Supported data pipelines and SQL database operations to ensure reliable data processing.
+              
+              **Key Responsibilities:**
+              - Monitored system health and identified performance bottlenecks
+              - Collaborated with teams to maintain uptime and data integrity
+              - Automated recurring maintenance tasks and operational workflows
+              - Maintained comprehensive documentation for data processes
+
+  # Education Section
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Bachelor of Science - Information Technology"
+        school:
+          name: "University of Information Technology (UIT-VNU)"
+          url: "https://www.uit.edu.vn/"
+        date: "2023 - 2026"
+        content: |-
+          **Specialization:** Cloud & Systems Engineering
+          
+          Focusing on cloud infrastructure, system administration, and DevOps practices.
+
+      - title: "Bachelor of Business Administration"
+        school:
+          name: "University of Labour & Social Affairs (ULSA2)"
+          url: "#"
+        date: "2018 - 2022"
+        content: |-
+          **Specialization:** Management Information Systems
+          
+          Business and technology integration, project management, and IT operations.
+
+  # Certifications Section
+  achievements:
+    enable: true
+    title: "Certifications & Achievements"
+    items:
+      - title: AWS Certified Cloud Practitioner (CLF-C02)
+        content: Datacamp - December 2024
+        url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/43a4eebb95f2699365bce674ccc7953695ca854f"
+        image: /images/aws-cert.png
+
+      - title: CS50's Computer Science
+        content: Harvard University - December 2024
+        url: "https://certificates.cs50.io/1a5e5664-3b9e-4322-862c-b882b6cd6c57.pdf?size=letter"
+        image: /images/cs50.png
+
+      - title: ITIL 4 Foundation Certificate
+        content: IT Service Management - January 2024
+        url: "https://certificates.platform.qa.com/bc16c738c9a224794864c675ab226f172532d1d3.pdf"
+        image: /images/ITIL.png
+
+      - title: Microsoft IT Support Specialist Specialization
+        content: Coursera - January 2024
+        url: "https://www.coursera.org/account/accomplishments/specialization/YHQU8F6W30C7"
+        image: /images/MIT.png
+
+      - title: Google IT Support Specialization
+        content: Coursera - November 2024
+        url: "https://www.coursera.org/account/accomplishments/specialization/6T6WCEGFR6WJ"
+        image: /images/GGIT.png
+
+      - title: Containerization with Docker & Kubernetes
+        content: DataCamp - January 2024
+        url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f7a0b7db367a36e713eee068b33d338f1e3f659d"
+        image: /images/DOCK&K8S.png
+
+      - title: Google Project Management Specialization
+        content: Coursera - December 2024
+        url: "https://www.coursera.org/account/accomplishments/specialization/9MKG8SRY3Y8R"
+        image: /images/PM.png
+
+      - title: Google Data Analytics Specialization
+        content: Coursera - October 2023
+        url: "https://www.coursera.org/account/accomplishments/specialization/PGJ89TX65EJ9"
+        image: /images/GDA.png
+
+      - title: Data Analyst Associate
+        content: DataCamp - September 2023 (Valid until Sep 2025)
+        url: "https://www.datacamp.com/certificate/DAA0013859733961"
+        image: /images/datacamp.png
+
+  # Projects Section (Optional - can enable later)
+  projects:
+    enable: false
+
+  # Contact Section
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: |-
+      I'm currently open to DevOps, SRE, and Data Engineering opportunities. 
+      
+      Whether you have a question, job opportunity, or just want to connect, feel free to reach out!
+      
+      📍 District 12, Ho Chi Minh City, Vietnam
+      
+      📧 vothanhdat20012000@gmail.com
+      
+      📱 0938940150
+      
+      🌐 Available: 2-3 weeks notice
+    btnName: "Email Me"
+    btnLink: "mailto:vothanhdat20012000@gmail.com"
+
+  # Footer
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+    socialNetworks:
+      github: https://github.com/vothanhdat
+      linkedin: https://linkedin.com/in/vothanhdat
+
+  # List & Single Pages
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # Translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
