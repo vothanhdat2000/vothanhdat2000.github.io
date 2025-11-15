@@ -92,14 +92,15 @@ params:
       enable: true
       title: "Technical Skills & Tools:"
       items:
-        - "☁️ Cloud: Azure, AWS (Certified Cloud Practitioner)"
+        - "☁️ Cloud: Azure, AWS"
+        - "💻 Languages: Golang, C++, Python"
         - "📊 Monitoring: Prometheus, Grafana"
         - "🔧 DevOps: Azure DevOps, GitHub Actions, CI/CD"
         - "⚙️ Automation: PowerShell, Python, Bash scripting"
         - "🐳 Containers: Docker, Kubernetes (Certified)"
         - "💾 Data: SQL, Data Pipelines, ETL"
         - "🔐 Security: IAM, MFA, Compliance & Auditing"
-        - "🖥️ Systems: Windows,Linux"
+        - "🖥️ Systems: Windows, Linux"
         - "🎫 Tools: Jira, Confluence, Microsoft 365, Dynamics CRM"
 
   # Experience Section
