@@ -186,47 +186,47 @@ params:
     title: "Certifications & Achievements"
     items:
       - title: AWS Certified Cloud Practitioner (CLF-C02)
-        content: Datacamp - December 2024
+        content: Datacamp
         url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/43a4eebb95f2699365bce674ccc7953695ca854f"
         image: /images/aws-cert.png
 
       - title: CS50's Computer Science
-        content: Harvard University - December 2024
+        content: Harvard University
         url: "https://certificates.cs50.io/1a5e5664-3b9e-4322-862c-b882b6cd6c57.pdf?size=letter"
         image: /images/cs50.png
 
       - title: ITIL 4 Foundation Certificate
-        content: IT Service Management - January 2024
+        content: IT Service Management
         url: "https://certificates.platform.qa.com/bc16c738c9a224794864c675ab226f172532d1d3.pdf"
         image: /images/ITIL.png
 
       - title: Microsoft IT Support Specialist Specialization
-        content: Coursera - January 2024
+        content: Coursera
         url: "https://www.coursera.org/account/accomplishments/specialization/YHQU8F6W30C7"
         image: /images/MIT.png
 
       - title: Google IT Support Specialization
-        content: Coursera - November 2024
+        content: Coursera
         url: "https://www.coursera.org/account/accomplishments/specialization/6T6WCEGFR6WJ"
         image: /images/GGIT.png
 
       - title: Containerization with Docker & Kubernetes
-        content: DataCamp - January 2024
+        content: DataCamp
         url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f7a0b7db367a36e713eee068b33d338f1e3f659d"
         image: /images/DOCK&K8S.png
 
       - title: Google Project Management Specialization
-        content: Coursera - December 2024
+        content: Coursera
         url: "https://www.coursera.org/account/accomplishments/specialization/9MKG8SRY3Y8R"
         image: /images/PM.png
 
       - title: Google Data Analytics Specialization
-        content: Coursera - October 2023
+        content: Coursera
         url: "https://www.coursera.org/account/accomplishments/specialization/PGJ89TX65EJ9"
         image: /images/GDA.png
 
       - title: Data Analyst Associate
-        content: DataCamp - September 2023 (Valid until Sep 2025)
+        content: DataCamp
         url: "https://www.datacamp.com/certificate/DAA0013859733961"
         image: /images/datacamp.png
 
@@ -261,8 +261,8 @@ params:
       title: Recent Posts
       enable: false
     socialNetworks:
-      github: https://github.com/vothanhdat
-      linkedin: https://linkedin.com/in/vothanhdat
+      github: https://github.com/vothanhdat2000
+      linkedin: https://www.linkedin.com/in/vo-thanh-dat-vtd20012000/
 
   # List & Single Pages
   listPages:
