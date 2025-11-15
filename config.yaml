@@ -141,7 +141,7 @@ params:
               - Analyzed system telemetry (logs, traces, metrics) to identify and resolve systemic issues.
               - Supported incident management (T1/T2 escalation) and compliance/audits using **Azure DevOps (ADO)**.
               
-      - company: "Sportify"
+      - company: "Spotify"
         companyUrl: "https://open.spotify.com/"
         jobs:
           - name: "Data Engineer"
