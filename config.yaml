@@ -142,7 +142,7 @@ params:
               - Minimized service downtime through proactive monitoring and escalation
 
       - company: "Sportify"
-        companyUrl: "#"
+        companyUrl: "https://open.spotify.com/"
         jobs:
           - name: "Data Engineer"
             date: "Mar 2022 - Jan 2023"
@@ -173,7 +173,7 @@ params:
       - title: "Bachelor of Business Administration"
         school:
           name: "University of Labour & Social Affairs (ULSA2)"
-          url: "#"
+          url: "https://ldxh.edu.vn/"
         date: "2018 - 2022"
         content: |-
           **Specialization:** Management Information Systems
@@ -241,7 +241,7 @@ params:
     content: |-
       I'm currently open to DevOps, SRE, and Data Engineering opportunities. 
       
-      Whether you have a question, job opportunity, or just want to connect, feel free to reach out!
+      Whether you have a question, a job opportunity, or just want to connect, feel free to reach out!
       
       📍 District 12, Ho Chi Minh City, Vietnam
       
@@ -249,7 +249,7 @@ params:
       
       📱 0938940150
       
-      🌐 Available: 2-3 weeks notice
+      🌐 Available: 2-3 weeks' notice
     btnName: "Email Me"
     btnLink: "mailto:vothanhdat20012000@gmail.com"
 
