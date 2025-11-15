@@ -96,7 +96,7 @@ params:
       enable: true
       title: "Technical Skills & Tools:"
       items:
-        - "☁️ Cloud: Azure, AWS"
+        - "☁️ Cloud: AWS"
         - "💻 Languages: Golang, C++, Python"
         - "📊 Monitoring: Prometheus, Grafana"
         - "🔧 DevOps: Azure DevOps, GitHub Actions, CI/CD"
@@ -121,11 +121,11 @@ params:
               
               **Key Responsibilities:**
               - Monitor service health and incidents using **Prometheus** and **Grafana**
-              - Provide remote support via **TeamViewer**, **Quick Assist**, and **Microsoft Teams**
+              - Design, build, and maintain CI/CD pipelines using **Docker** and **Kubernetes (K8s)**.
               - Maintain technical documentation for troubleshooting and issue resolution
-              - Track access permissions and collaborate with engineering teams
               - Escalate critical issues to ensure minimal downtime
-
+              - Develop and maintain robust ETL/ELT data pipelines using **Python**.
+          
       - company: "Microsoft"
         companyUrl: "https://www.microsoft.com"
         jobs:
@@ -138,9 +138,9 @@ params:
               - Diagnosed and resolved incidents related to **identity**, **networking**, and **Azure services**
               - Used **Azure DevOps** and **Microsoft Dynamics CRM** for incident tracking
               - Developed **PowerShell scripts** for automating diagnostics and log collection
-              - Supported compliance documentation and root-cause analysis for internal audits
-              - Minimized service downtime through proactive monitoring and escalation
-
+              - Analyzed system telemetry (logs, traces, metrics) to identify and resolve systemic issues.
+              - Supported incident management (T1/T2 escalation) and compliance/audits using **Azure DevOps (ADO)**.
+              
       - company: "Sportify"
         companyUrl: "https://open.spotify.com/"
         jobs:
@@ -153,7 +153,8 @@ params:
               - Monitored system health and identified performance bottlenecks
               - Collaborated with teams to maintain uptime and data integrity
               - Automated recurring maintenance tasks and operational workflows
-              - Maintained comprehensive documentation for data processes
+              - Built and maintained data ingestion pipelines using **Python** and **ETL tools**.
+              - Monitored data pipeline health and optimized SQL database operations.
 
   # Education Section
   education:
