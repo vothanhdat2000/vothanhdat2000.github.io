@@ -84,6 +84,10 @@ params:
       Currently working at **Gameloft**, I specialize in maintaining high-availability services, monitoring with **Prometheus & Grafana**, and supporting development teams with robust DevOps practices.
       
       Previously, I worked as a **Site Reliability Engineer at Microsoft**, where I focused on service stability, incident management, and automation using **PowerShell** and **Azure DevOps**.
+
+      I've got a solid foundation in reliability, a passion for "Moving Up", and the "Architect" mindset that makes this career so exciting.
+
+      *(This portfolio itself is a "True Value" project: built with **Hugo (Go)**, deployed via **GitHub Actions (CI/CD)**, and hosted for **(Free)** on **GitHub Pages**.)*
       
       📍 Based in Ho Chi Minh City, Vietnam
       
@@ -97,7 +101,7 @@ params:
         - "📊 Monitoring: Prometheus, Grafana"
         - "🔧 DevOps: Azure DevOps, GitHub Actions, CI/CD"
         - "⚙️ Automation: PowerShell, Python, Bash scripting"
-        - "🐳 Containers: Docker, Kubernetes (Certified)"
+        - "🐳 Containers: Docker, Kubernetes"
         - "💾 Data: SQL, Data Pipelines, ETL"
         - "🔐 Security: IAM, MFA, Compliance & Auditing"
         - "🖥️ Systems: Windows, Linux"
