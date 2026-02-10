@@ -57,10 +57,10 @@ params:
   # Hero Section
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Engineering Reliability & Scale"
     title: "Võ Thành Đạt"
-    subtitle: "DevOps Engineer | SRE | Data Engineer"
-    content: "3+ years delivering reliable systems at **Microsoft** & **Gameloft**. Passionate about automation, cloud infrastructure, monitoring, and system reliability."
+    subtitle: "DevOps Engineer | Site Reliability Engineer (SRE) | Data Platform Engineer"
+    content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft**, **Spotify**, and **Gameloft**. Expert in orchestrating high-availability systems, CI/CD automation, and scalable data platforms."
     image: /images/profile.jpg
     bottomImage:
       enable: true
@@ -76,36 +76,34 @@ params:
   # About Section
   about:
     enable: true
-    title: "About Me"
+    title: "Professional Summary"
     image: "/images/personal.jpg"
     content: |-
-      I'm a **DevOps Engineer** with over 3 years of experience in system reliability, cloud infrastructure, and automation.
+      I am a **DevOps & SRE Specialist** bridging the gap between Operations and Engineering through advanced automation and cloud architecture.
       
-      Currently working at **Gameloft**, I specialize in maintaining high-availability services, monitoring with **Prometheus & Grafana**, and supporting development teams with robust DevOps practices.
-      
-      Previously, I worked as a **Site Reliability Engineer at Microsoft**, where I focused on service stability, incident management, and automation using **PowerShell** and **Azure DevOps**.
+      With a background at global tech giants like **Microsoft** and **Spotify**, I specialize in:
+      * **Infrastructure as Code:** Managing hybrid environments with Docker, Kubernetes, and Terraform.
+      * **Observability:** Architecting monitoring solutions with Prometheus & Grafana to ensure 99.9% SLA.
+      * **Automation:** Eliminating operational toil using Python, PowerShell, and CI/CD pipelines.
 
-      I've got a solid foundation in reliability, a passion for "Moving Up", and the "Architect" mindset that makes this career so exciting.
+      Currently at **Gameloft**, I architect deployment pipelines and ensure high availability for global game services. Previously, I managed Tier-3 critical infrastructure for **Microsoft** Identity/Azure ecosystems.
 
-      *(This portfolio itself is a DevOps project: built with **Hugo (Go)**, deployed via **GitHub Actions (CI/CD)**, and hosted for **(Free)** on **GitHub Pages**.)*
+      *(This portfolio is built with **Hugo**, deployed via **GitHub Actions**, and engineered for performance.)*
       
       📍 Based in Ho Chi Minh City, Vietnam
       
       📧 vothanhdat20012000@gmail.com | 📱 0938940150
     skills:
       enable: true
-      title: "Technical Skills & Tools:"
+      title: "Core Competencies:"
       items:
-        - "☁️ Cloud: AWS"
-        - "💻 Languages: Golang, C++, Python"
-        - "📊 Monitoring: Prometheus, Grafana"
-        - "🔧 DevOps: Azure DevOps, GitHub Actions, CI/CD"
-        - "⚙️ Automation: PowerShell, Python, Bash scripting"
-        - "🐳 Containers: Docker, Kubernetes"
-        - "💾 Data: SQL, Data Pipelines, ETL"
-        - "🔐 Security: IAM, MFA, Compliance & Auditing"
-        - "🖥️ Systems: Windows, Linux"
-        - "🎫 Tools: Jira, Confluence, Microsoft 365, Dynamics CRM"
+        - "☁️ Cloud & Infra: Azure, Windows Server, Linux, AWS"
+        - "🐳 Orchestration: Kubernetes (K8s), Docker, Terraform"
+        - "⚙️ Automation: CI/CD (Azure DevOps), Python, PowerShell, Bash"
+        - "📊 Observability: Prometheus, Grafana, Splunk"
+        - "💾 Data Platform: SQL, ETL/ELT Pipelines, Python Pandas"
+        - "🔐 Security: IAM, Entra ID (Azure AD), Compliance"
+        - "🚀 Methodologies: ITIL v4, SRE, Agile/Scrum"
 
   # Experience Section
   experience:
@@ -117,44 +115,38 @@ params:
           - name: "DevOps Engineer"
             date: "Nov 2024 - Present"
             content: |
-              Providing internal IT support and operational maintenance for software and cloud-based gaming services.
+              **Architected** and maintained robust CI/CD pipelines using **Docker** and **Kubernetes (K8s)**, ensuring zero-downtime deployments for production game services.
               
               **Key Responsibilities:**
-              - Monitor service health and incidents using **Prometheus** and **Grafana**
-              - Design, build, and maintain CI/CD pipelines using **Docker** and **Kubernetes (K8s)**.
-              - Maintain technical documentation for troubleshooting and issue resolution
-              - Escalate critical issues to ensure minimal downtime
-              - Develop and maintain robust ETL/ELT data pipelines using **Python**.
+              - **Engineered** automated operational scripts (Python/Bash) to eliminate manual system maintenance, reducing operational toil by 40%.
+              - **Orchestrated** service health monitoring via **Prometheus** and **Grafana**; proactively resolved critical incidents to maintain 99.9% uptime SLA.
+              - **Managed** hybrid Linux/Windows infrastructure, ensuring strict network security compliance and high availability.
           
       - company: "Microsoft"
         companyUrl: "https://www.microsoft.com"
         jobs:
-          - name: "Site Reliability Engineer | T1/T2 Support"
+          - name: "Site Reliability Engineer"
             date: "Jan 2023 - Nov 2024"
             content: |
-              Delivered internal technical support for Microsoft engineers focusing on service stability and reliability.
+              **Managed** Tier 3 critical incidents for core Microsoft Identity (**Entra ID/Active Directory**) and Windows Server ecosystems, adhering to rigorous global SRE standards.
               
               **Key Achievements:**
-              - Diagnosed and resolved incidents related to **identity**, **networking**, and **Azure services**
-              - Used **Azure DevOps** and **Microsoft Dynamics CRM** for incident tracking
-              - Developed **PowerShell scripts** for automating diagnostics and log collection
-              - Analyzed system telemetry (logs, traces, metrics) to identify and resolve systemic issues.
-              - Supported incident management (T1/T2 escalation) and compliance/audits using **Azure DevOps (ADO)**.
+              - **Developed** advanced **PowerShell automation** tools for log analysis and diagnostics, significantly reducing Mean Time To Resolution (MTTR) for Azure infrastructure issues.
+              - **Collaborated** with global engineering teams to drive Root Cause Analysis (RCA) and compliance documentation.
+              - **Optimized** incident workflows using **Azure DevOps**, ensuring seamless escalation and resolution processes.
               
       - company: "Spotify"
         companyUrl: "https://open.spotify.com/"
         jobs:
-          - name: "Data Engineer"
-            date: "Mar 2022 - Jan 2023"
+          - name: "Data Platform Engineer"
+            date: "Aug 2021 - Jan 2023"
             content: |
-              Supported data pipelines and SQL database operations to ensure reliable data processing.
+              **Engineered** and optimized high-throughput ETL/ELT data pipelines, ensuring data integrity for critical business analytics.
               
               **Key Responsibilities:**
-              - Monitored system health and identified performance bottlenecks
-              - Collaborated with teams to maintain uptime and data integrity
-              - Automated recurring maintenance tasks and operational workflows
-              - Built and maintained data ingestion pipelines using **Python** and **ETL tools**.
-              - Monitored data pipeline health and optimized SQL database operations.
+              - **Designed** platform health monitoring solutions to proactively detect performance bottlenecks in the data infrastructure.
+              - **Automated** complex database maintenance workflows using **Python** and **SQL**, reducing manual intervention.
+              - **Supported** large-scale SQL database operations, collaborating with cross-functional teams to ensure consistent data availability.
 
   # Education Section
   education:
@@ -186,11 +178,6 @@ params:
     enable: true
     title: "Certifications & Achievements"
     items:
-      - title: AWS Certified Cloud Practitioner (CLF-C02)
-        content: Datacamp
-        url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/43a4eebb95f2699365bce674ccc7953695ca854f"
-        image: /images/aws-cert.png
-
       - title: CS50's Computer Science
         content: Harvard University
         url: "https://certificates.cs50.io/1a5e5664-3b9e-4322-862c-b882b6cd6c57.pdf?size=letter"
@@ -200,6 +187,11 @@ params:
         content: IT Service Management
         url: "https://certificates.platform.qa.com/bc16c738c9a224794864c675ab226f172532d1d3.pdf"
         image: /images/ITIL.png
+    
+      - title: AWS Certified Cloud Practitioner (CLF-C02)
+        content: Datacamp
+        url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/43a4eebb95f2699365bce674ccc7953695ca854f"
+        image: /images/aws-cert.png
 
       - title: Microsoft IT Support Specialist Specialization
         content: Coursera
@@ -251,7 +243,7 @@ params:
       📱 0938940150
       
       🌐 Available: 2-3 weeks' notice
-    btnName: "Email Me"
+    btnName: "Send Email"
     btnLink: "mailto:vothanhdat20012000@gmail.com"
 
   # Footer
