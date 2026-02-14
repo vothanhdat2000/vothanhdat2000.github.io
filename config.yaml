@@ -126,7 +126,7 @@ params:
         companyUrl: "https://www.microsoft.com"
         jobs:
           - name: "Site Reliability Engineer"
-            date: "Jan 2023 - Nov 2024"
+            date: "Nov 2022 - Nov 2024"
             content: |
               **Managed** Tier 3 critical incidents for core Microsoft Identity (**Entra ID/Active Directory**) and Windows Server ecosystems, adhering to rigorous global SRE standards.
               
@@ -139,7 +139,7 @@ params:
         companyUrl: "https://open.spotify.com/"
         jobs:
           - name: "Data Platform Engineer"
-            date: "Aug 2021 - Jan 2023"
+            date: "Aug 2021 - Sept 2022"
             content: |
               **Engineered** and optimized high-throughput ETL/ELT data pipelines, ensuring data integrity for critical business analytics.
               
@@ -157,7 +157,7 @@ params:
         school:
           name: "University of Information Technology (UIT-VNU)"
           url: "https://www.uit.edu.vn/"
-        date: "2022 - 2024"
+        date: "2022 - 2025"
         content: |-
           **Specialization:** Cloud & Systems Engineering
           
