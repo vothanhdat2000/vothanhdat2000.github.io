@@ -223,25 +223,19 @@ params:
         url: "https://www.datacamp.com/certificate/DAA0013859733961"
         image: /images/datacamp.png
 
-  # Projects Section
+# Projects Section
   projects:
     enable: true
     title: "Featured Projects"
     items:
       - title: "Cloud Sentinel | Automated IaC Auditing & Remediation"
-        content: |-
-          A policy-based cloud resource auditing and remediation tool built for compliance and cost control.<br><br>
-          • <b>Infrastructure as Code:</b> Provisioned test environments using Terraform and LocalStack (AWS).<br>
-          • <b>Automation:</b> Built a Python audit pipeline (Sentinel) to scan for unencrypted or untagged EBS volumes.<br>
-          • <b>Remediation:</b> Streamlined remediation with confirmation-based cleanup of non-compliant resources.<br>
-          • <b>CI/CD:</b> Integrated GitHub Actions for Terraform validate/fmt and Python lint.
+        content: "A policy-based cloud resource auditing and remediation tool built for compliance and cost control. The project provisions test environments using Terraform and AWS LocalStack. It features a Python audit pipeline to scan for unencrypted or untagged EBS volumes, followed by an automated, confirmation-based cleanup process. The entire workflow is integrated with GitHub Actions for CI/CD validation."
         url: "https://github.com/vothanhdat2000/cloud-sentinel-project"
         badges:
           - "Terraform"
           - "Python"
-          - "Ansible"
           - "Docker"
-          - "AWS LocalStack"
+          - "LocalStack"
           - "GitHub Actions"
 
   # Contact Section
