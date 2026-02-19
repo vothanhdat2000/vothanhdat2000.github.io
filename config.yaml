@@ -223,7 +223,7 @@ params:
         url: "https://www.datacamp.com/certificate/DAA0013859733961"
         image: /images/datacamp.png
 
-  # Projects Section (Optional - can enable later)
+  # Projects Section
   projects:
     enable: true
     title: "Featured Projects"
