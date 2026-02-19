@@ -100,7 +100,7 @@ params:
         - "☁️ Cloud & Infra: Azure, Windows Server, Linux, AWS"
         - "🐳 Orchestration: Kubernetes (K8s), Docker, Terraform"
         - "⚙️ Automation: CI/CD (Azure DevOps), Python, PowerShell, Bash"
-        - "📊 Observability: Prometheus, Grafana, Splunk"
+        - "📊 Observability: Prometheus, Grafana"
         - "💾 Data Platform: SQL, ETL/ELT Pipelines, Python Pandas"
         - "🔐 Security: IAM, Entra ID (Azure AD), Compliance"
         - "🚀 Methodologies: ITIL v4, SRE, Agile/Scrum"
@@ -153,9 +153,9 @@ params:
     enable: true
     index: false
     items:
-      - title: "Bachelor of Science - Information Technology"
+      - title: "Bachelor of Science - Information Technology."
         school:
-          name: "University of Information Technology (UIT-VNU)"
+          name: "University of Information Technology (UIT-VNU)."
           url: "https://www.uit.edu.vn/"
         date: "2022 - 2025"
         content: |-
@@ -163,7 +163,7 @@ params:
           
           Focusing on cloud infrastructure, system administration, and DevOps practices.
 
-      - title: "Bachelor of Business Administration"
+      - title: "Bachelor of Business Administration."
         school:
           name: "University of Labour & Social Affairs (ULSA2)"
           url: "https://ldxh.edu.vn/"
