@@ -231,11 +231,12 @@ params:
       - title: "Cloud Sentinel | Automated IaC Auditing & Remediation"
         content: |-
           A policy-based cloud resource auditing and remediation tool built for compliance and cost control.
+          
           * **Infrastructure as Code:** Provisioned test environments using **Terraform** and **LocalStack** (AWS).
           * **Automation:** Built a **Python** audit pipeline (Sentinel) to scan for unencrypted or untagged EBS volumes.
           * **Remediation:** Streamlined remediation with confirmation-based cleanup of non-compliant resources.
-          * **CI/CD:** Integrated **GitHub Actions** for Terraform validate/fmt and Python lint; optional end-to-end audit job.
-        image: "/images/cloud-sentinel.png"
+          * **CI/CD:** Integrated **GitHub Actions** for Terraform validate/fmt and Python lint.
+        image: "/images/cloudsentinel.png"
         url: "https://github.com/vothanhdat2000/cloud-sentinel-project"
         badges:
           - "Terraform"
