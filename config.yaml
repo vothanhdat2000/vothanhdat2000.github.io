@@ -50,7 +50,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: true
+      disableProjects: false
       disableAchievements: false
       disableContact: false
 
@@ -225,7 +225,25 @@ params:
 
   # Projects Section (Optional - can enable later)
   projects:
-    enable: false
+    enable: true
+    title: "Featured Projects"
+    items:
+      - title: "Cloud Sentinel | Automated IaC Auditing & Remediation"
+      content: |-
+        A policy-based cloud resource auditing and remediation tool built for compliance and cost control.
+        * **Infrastructure as Code:** Provisioned test environments using **Terraform** and **LocalStack** (AWS).
+        * **Automation:** Built a **Python** audit pipeline (Sentinel) to scan for unencrypted or untagged EBS volumes.
+        * **Remediation:** Streamlined remediation with confirmation-based cleanup of non-compliant resources.
+        * **CI/CD:** Integrated **GitHub Actions** for Terraform validate/fmt and Python lint; optional end-to-end audit job.
+      image: "/images/cloud-sentinel.png"
+      url: "https://github.com/vothanhdat2000/cloud-sentinel-project"
+      badges:
+        - "Terraform"
+        - "Python"
+        - "Ansible"
+        - "Docker"
+        - "AWS LocalStack"
+        - "GitHub Actions"
 
   # Contact Section
   contact:
