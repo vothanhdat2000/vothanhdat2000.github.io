@@ -90,20 +90,20 @@ params:
 
       *(This portfolio is built with **Hugo**, deployed via **GitHub Actions**, and engineered for performance.)*
       
-      📍 Based in Ho Chi Minh City, Vietnam
+      Based in Ho Chi Minh City, Vietnam
       
-      📧 vothanhdat20012000@gmail.com | 📱 0938940150
+      vothanhdat20012000@gmail.com | 📱 0938940150
     skills:
       enable: true
       title: "Core Competencies:"
       items:
-        - "☁️ Cloud & Infra: Azure, Windows Server, Linux, AWS"
-        - "🐳 Orchestration: Kubernetes (K8s), Docker, Terraform"
-        - "⚙️ Automation: CI/CD (Azure DevOps), Python, PowerShell, Bash"
-        - "📊 Observability: Prometheus, Grafana"
-        - "💾 Data Platform: SQL, ETL/ELT Pipelines, Python Pandas"
-        - "🔐 Security: IAM, Entra ID (Azure AD), Compliance"
-        - "🚀 Methodologies: ITIL v4, SRE, Agile/Scrum"
+        - "Cloud & Infra: Azure, Windows Server, Linux, AWS"
+        - "Orchestration: Kubernetes (K8s), Docker, Terraform"
+        - "Automation: CI/CD (Azure DevOps), Python, PowerShell, Bash"
+        - "Observability: Prometheus, Grafana"
+        - "Data Platform: SQL, ETL/ELT Pipelines, Python Pandas"
+        - "Security: IAM, Entra ID (Azure AD), Compliance"
+        - "Methodologies: ITIL v4, SRE, Agile/Scrum"
 
   # Experience Section
   experience:
