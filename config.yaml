@@ -24,7 +24,7 @@ markup:
 
 params:
   title: "VTD Portfolio"
-  description: "DevOps Engineer | SRE | Data Engineer - 3+ years experience at Microsoft & Gameloft"
+  description: "DevOps Engineer | SRE - 3+ years experience at Microsoft & Gameloft"
   favicon: "/fav.png"
 
   useBootstrapCDN: false
@@ -59,7 +59,7 @@ params:
     enable: true
     intro: "Engineering Reliability & Scale"
     title: "Võ Thành Đạt"
-    subtitle: "DevOps Engineer | Site Reliability Engineer (SRE) | Data Platform Engineer"
+    subtitle: "DevOps Engineer | Site Reliability Engineer (SRE)"
     content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft**, **Spotify**, and **Gameloft**. Expert in orchestrating high-availability systems, CI/CD automation, and scalable data platforms."
     image: /images/profile.jpg
     bottomImage:
@@ -135,18 +135,6 @@ params:
               - **Collaborated** with global engineering teams to drive Root Cause Analysis (RCA) and compliance documentation.
               - **Optimized** incident workflows using **Azure DevOps**, ensuring seamless escalation and resolution processes.
               
-      - company: "Spotify"
-        companyUrl: "https://open.spotify.com/"
-        jobs:
-          - name: "Data Platform Engineer"
-            date: "Aug 2021 - Sept 2022"
-            content: |
-              **Engineered** and optimized high-throughput ETL/ELT data pipelines, ensuring data integrity for critical business analytics.
-              
-              **Key Responsibilities:**
-              - **Designed** platform health monitoring solutions to proactively detect performance bottlenecks in the data infrastructure.
-              - **Automated** complex database maintenance workflows using **Python** and **SQL**, reducing manual intervention.
-              - **Supported** large-scale SQL database operations, collaborating with cross-functional teams to ensure consistent data availability.
 
   # Education Section
   education:
