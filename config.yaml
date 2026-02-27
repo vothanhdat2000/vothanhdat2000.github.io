@@ -106,7 +106,7 @@ params:
       - company: "Gameloft"
         companyUrl: "https://www.gameloft.com"
         jobs:
-          - name: "Online Technical Support (DevOps & Infrastructure)"
+          - name: "Online Technical Support (DevOps & Infrastructure)."
             date: "Nov 2024 - Present"
             content: |
               **Architected** and maintained robust CI/CD pipelines using **Docker** and **Kubernetes (K8s)**, ensuring zero-downtime deployments for production game services.
@@ -115,7 +115,7 @@ params:
               - **Orchestrated** service health monitoring via **Prometheus** and **Grafana**; proactively resolved critical incidents to maintain 99.9% uptime SLA.
               - **Managed** hybrid Linux/Windows infrastructure, ensuring strict network security compliance and high availability.
           
-      - company: "Microsoft (via Itechwx)"
+      - company: "Microsoft"
         companyUrl: "https://www.microsoft.com"
         jobs:
           - name: "Technical Support Engineer L3 | SRE"
