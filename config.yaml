@@ -13,7 +13,6 @@ outputs:
     - "RSS"
 
 enableRobotsTXT: true
-
 pagination:
   pagerSize: 3
 
@@ -24,9 +23,8 @@ markup:
 
 params:
   title: "VTD Portfolio"
-  description: "DevOps Engineer | SRE - 3+ years experience at Microsoft & Gameloft"
+  description: "Specializing in Infrastructure & Automation"
   favicon: "/fav.png"
-
   useBootstrapCDN: false
   animate: true
 
@@ -60,7 +58,7 @@ params:
     intro: "Engineering Reliability & Scale"
     title: "Võ Thành Đạt"
     subtitle: "DevOps Engineer | Site Reliability Engineer (SRE)"
-    content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft**, **Spotify**, and **Gameloft**. Expert in orchestrating high-availability systems, CI/CD automation, and scalable data platforms."
+    content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft** and **Gameloft**. Expert in orchestrating high-availability systems, CI/CD automation, and hybrid cloud architectures."
     image: /images/profile.jpg
     bottomImage:
       enable: true
@@ -81,29 +79,25 @@ params:
     content: |-
       I am a **DevOps & SRE Specialist** bridging the gap between Operations and Engineering through advanced automation and cloud architecture.
       
-      With a background at global tech giants like **Microsoft** and **Spotify**, I specialize in:
+      Focusing on building resilient and scalable systems, I specialize in:
       * **Infrastructure as Code:** Managing hybrid environments with Docker, Kubernetes, and Terraform.
       * **Observability:** Architecting monitoring solutions with Prometheus & Grafana to ensure 99.9% SLA.
       * **Automation:** Eliminating operational toil using Python, PowerShell, and CI/CD pipelines.
 
-      Currently at **Gameloft**, I architect deployment pipelines and ensure high availability for global game services. Previously, I managed Tier-3 critical infrastructure for **Microsoft** Identity/Azure ecosystems.
+      Currently at **Gameloft**, I focus on DevOps practices within Online Technical Support, ensuring high availability for global game services. Previously, I managed Tier-3 critical infrastructure at **Microsoft** (via Itechwx) for Identity and Azure ecosystems.
 
-      *(This portfolio is built with **Hugo**, deployed via **GitHub Actions**, and engineered for performance.)*
-      
       Based in Ho Chi Minh City, Vietnam
-      
-      vothanhdat20012000@gmail.com | Phone number 0938940150
+      vothanhdat20012000@gmail.com | 0938940150
     skills:
       enable: true
       title: "Core Competencies:"
       items:
-        - "Cloud & Infra: Azure, Windows Server, Linux, AWS"
+        - "Cloud & Infra: Azure, AWS, Windows Server, Linux"
         - "Orchestration: Kubernetes (K8s), Docker, Terraform"
         - "Automation: CI/CD (Azure DevOps), Python, PowerShell, Bash"
         - "Observability: Prometheus, Grafana"
-        - "Data Platform: SQL, ETL/ELT Pipelines, Python Pandas"
+        - "Data Platform: SQL, ETL/ELT Pipelines"
         - "Security: IAM, Entra ID (Azure AD), Compliance"
-        - "Methodologies: ITIL v4, SRE, Agile/Scrum"
 
   # Experience Section
   experience:
@@ -112,125 +106,42 @@ params:
       - company: "Gameloft"
         companyUrl: "https://www.gameloft.com"
         jobs:
-          - name: "Online Support Engineer (DevOps & Infrastructure)."
-            date: "Nov 2024 - Present."
+          - name: "Online Technical Support (DevOps & Infrastructure)"
+            date: "Nov 2024 - Present"
             content: |
               **Architected** and maintained robust CI/CD pipelines using **Docker** and **Kubernetes (K8s)**, ensuring zero-downtime deployments for production game services.
               
-              **Key Responsibilities:**
               - **Engineered** automated operational scripts (Python/Bash) to eliminate manual system maintenance, reducing operational toil by 40%.
               - **Orchestrated** service health monitoring via **Prometheus** and **Grafana**; proactively resolved critical incidents to maintain 99.9% uptime SLA.
               - **Managed** hybrid Linux/Windows infrastructure, ensuring strict network security compliance and high availability.
           
-      - company: "Microsoft"
+      - company: "Microsoft (via Itechwx)"
         companyUrl: "https://www.microsoft.com"
         jobs:
-          - name: "Technical Support Engineer L3 | Site Reliability Engineer".
-            date: "Nov 2022 - Nov 2024."
+          - name: "Technical Support Engineer L3 | SRE"
+            date: "Nov 2022 - Nov 2024"
             content: |
               **Managed** Tier 3 critical incidents for core Microsoft Identity (**Entra ID/Active Directory**) and Windows Server ecosystems, adhering to rigorous global SRE standards.
               
-              **Key Achievements:**
               - **Developed** advanced **PowerShell automation** tools for log analysis and diagnostics, significantly reducing Mean Time To Resolution (MTTR) for Azure infrastructure issues.
               - **Collaborated** with global engineering teams to drive Root Cause Analysis (RCA) and compliance documentation.
               - **Optimized** incident workflows using **Azure DevOps**, ensuring seamless escalation and resolution processes.
-              
 
-  # Education Section
-  education:
-    enable: true
-    index: false
-    items:
-      - title: "Bachelor of Science - Information Technology."
-        school:
-          name: "University of Information Technology (UIT-VNU)."
-          url: "https://www.uit.edu.vn/"
-        date: "2022 - 2025"
-        content: |-
-          **Specialization:** Cloud & Systems Engineering
-          
-          Focusing on cloud infrastructure, system administration, and DevOps practices.
-
-      - title: "Bachelor of Business Administration."
-        school:
-          name: "University of Labour & Social Affairs (ULSA2)"
-          url: "https://ldxh.edu.vn/"
-        date: "2018 - 2022"
-        content: |-
-          **Specialization:** Management Information Systems
-          
-          Business and technology integration, project management, and IT operations.
-
-  # Certifications Section
-  achievements:
-    enable: true
-    title: "Certifications & Achievements"
-    items:
-      - title: CS50's Computer Science
-        content: Harvard University
-        url: "https://certificates.cs50.io/1a5e5664-3b9e-4322-862c-b882b6cd6c57.pdf?size=letter"
-        image: /images/cs50.png
-
-      - title: ITIL 4 Foundation Certificate
-        content: IT Service Management
-        url: "https://certificates.platform.qa.com/bc16c738c9a224794864c675ab226f172532d1d3.pdf"
-        image: /images/ITIL.png
-    
-      - title: AWS Certified Cloud Practitioner (CLF-C02)
-        content: Datacamp
-        url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/43a4eebb95f2699365bce674ccc7953695ca854f"
-        image: /images/aws-cert.png
-
-      - title: Microsoft IT Support Specialist Specialization
-        content: Coursera
-        url: "https://www.coursera.org/account/accomplishments/specialization/YHQU8F6W30C7"
-        image: /images/MIT.png
-
-      - title: Google IT Support Specialization
-        content: Coursera
-        url: "https://www.coursera.org/account/accomplishments/specialization/6T6WCEGFR6WJ"
-        image: /images/GGIT.png
-
-      - title: Containerization with Docker & Kubernetes
-        content: DataCamp
-        url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f7a0b7db367a36e713eee068b33d338f1e3f659d"
-        image: /images/DOCK&K8S.png
-
-      - title: Google Project Management Specialization
-        content: Coursera
-        url: "https://www.coursera.org/account/accomplishments/specialization/9MKG8SRY3Y8R"
-        image: /images/PM.png
-
-      - title: Google Data Analytics Specialization
-        content: Coursera
-        url: "https://www.coursera.org/account/accomplishments/specialization/PGJ89TX65EJ9"
-        image: /images/GDA.png
-
-      - title: Data Analyst Associate
-        content: DataCamp
-        url: "https://www.datacamp.com/certificate/DAA0013859733961"
-        image: /images/datacamp.png
-
-# Projects Section
+  # Projects Section
   projects:
     enable: true
     title: "Featured Projects"
     items:
       - title: "Cloud Sentinel | Automated IaC Auditing & Remediation"
-        content: "A policy-based cloud resource auditing and remediation tool built for compliance and cost control. The project provisions test environments using Terraform and AWS LocalStack. It features a Python audit pipeline to scan for unencrypted or untagged EBS volumes, followed by an automated, confirmation-based cleanup process. The entire workflow is integrated with GitHub Actions for CI/CD validation."
+        content: "A policy-based cloud resource auditing tool built with Terraform and Python. Features automated scanning for unencrypted EBS volumes and GitHub Actions integration."
         image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=800&auto=format&fit=crop"
-        
-        
         featured:
           name: "View on GitHub"
           link: "https://github.com/vothanhdat2000/Cloud-Sentinel-Project"
-        
-        
         badges:
           - "Terraform"
           - "Python"
           - "Docker"
-          - "LocalStack"
           - "GitHub Actions"
 
   # Contact Section
@@ -238,51 +149,13 @@ params:
     enable: true
     title: "Get In Touch"
     content: |-
-      I'm currently open to DevOps, SRE, and Data Engineering opportunities. 
-      
-      Whether you have a question, a job opportunity, or just want to connect, feel free to reach out!
-      
-      District 12, Ho Chi Minh City, Vietnam
-      
-      vothanhdat20012000@gmail.com
-      
-      0938940150
-      
-      Available: 2-3 weeks' notice
+      I'm currently open to DevOps, SRE, and Infrastructure opportunities. 
+      Feel free to reach out for collaboration or inquiries!
     btnName: "Send Email"
     btnLink: "mailto:vothanhdat20012000@gmail.com"
 
   # Footer
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: false
     socialNetworks:
       github: https://github.com/vothanhdat2000
       linkedin: https://www.linkedin.com/in/vo-thanh-dat-vtd20012000/
-
-  # List & Single Pages
-  listPages:
-    disableFeaturedImage: false
-
-  singlePages:
-    readTime:
-      enable: true
-      content: "min read"
-    scrollprogress:
-      enable: true
-
-  # Translations
-  terms:
-    read: "Read"
-    toc: "Table Of Contents"
-    copyright: "All rights reserved"
-    pageNotFound: "Page not found"
-    emailText: "Check out this site"
-
-  datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
