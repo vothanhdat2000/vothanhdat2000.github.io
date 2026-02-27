@@ -106,7 +106,7 @@ params:
       - company: "Gameloft"
         companyUrl: "https://www.gameloft.com"
         jobs:
-          - name: "Online Technical Support (DevOps & Infrastructure)."
+          - name: "OTS - (DevOps & Infrastructure)"
             date: "Nov 2024 - Present"
             content: |
               **Architected** and maintained robust CI/CD pipelines using **Docker** and **Kubernetes (K8s)**, ensuring zero-downtime deployments for production game services.
@@ -118,7 +118,7 @@ params:
       - company: "Microsoft"
         companyUrl: "https://www.microsoft.com"
         jobs:
-          - name: "Technical Support Engineer L3 | SRE"
+          - name: "TSE L3 | SRE"
             date: "Nov 2022 - Nov 2024"
             content: |
               **Managed** Tier 3 critical incidents for core Microsoft Identity (**Entra ID/Active Directory**) and Windows Server ecosystems, adhering to rigorous global SRE standards.
