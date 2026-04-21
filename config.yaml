@@ -128,6 +128,18 @@ params:
               - **Developed** advanced **PowerShell automation** tools for log analysis and diagnostics, significantly reducing Mean Time To Resolution (MTTR) for Azure infrastructure issues.
               - **Collaborated** with global engineering teams to drive Root Cause Analysis (RCA) and compliance documentation.
               - **Optimized** incident workflows using **Azure DevOps**, ensuring seamless escalation and resolution processes.
+      
+      - company: "Spotify"
+        companyUrl: "https://www.spotify.com"
+        jobs:
+          - name: "Data Platform Engineer"
+            date: "Oct 2021 - Sep 2022"
+            content: |
+              **Maintained** high availability and reliability of large-scale data platforms (Luigi product team), ensuring seamless data flow and infrastructure stability.
+              
+              - **Optimized** infrastructure performance for Big Data workloads, focusing on system scalability and maximizing uptime.
+              - **Automated** data infrastructure processes to reduce operational overhead and improve overall system resilience.
+              - **Monitored** system health and collaborated across engineering teams to resolve critical pipeline bottlenecks.
               
   # Projects Section
   projects:
