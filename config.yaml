@@ -58,7 +58,7 @@ params:
     intro: "Treat Operations as Software."
     title: "Võ Thành Đạt"
     subtitle: "DevOps Engineer | Site Reliability Engineer (SRE)"
-    content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft** and **Gameloft**. Expert in orchestrating high-availability systems, eliminating operational toil, and building resilient hybrid cloud architectures."
+    content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft**, **Spotify**, and **Gameloft**. Expert in orchestrating high-availability systems, eliminating operational toil, and building resilient hybrid cloud architectures."
     image: /images/profile.jpg
     bottomImage:
       enable: true
@@ -84,7 +84,7 @@ params:
       * **Observability:** Architecting monitoring solutions with Prometheus & Grafana to ensure 99.9x% SLA.
       * **Automation:** Eliminating operational toil using Python, Go, PowerShell, and CI/CD pipelines.
 
-      Currently at **Gameloft**, I manage and automate Cloud-native infrastructure, optimizing CI/CD pipelines, and ensuring high availability for critical in-house backend services. Previously, I managed Tier-3 critical infrastructure at **Microsoft** for Identity and Azure ecosystems.
+      Currently at **Gameloft**, I manage and automate Cloud-native infrastructure, optimizing CI/CD pipelines, and ensuring high availability for critical in-house backend services. Previously, I managed Tier-3 critical infrastructure at **Microsoft** for Identity ecosystems and ensured the reliability of large-scale data platforms at **Spotify**.
 
       **Next Milestone:** Deepening expertise in Core Enterprise Infrastructure with active preparation for **CCNA** and **RHCSA** certifications.
 
@@ -168,11 +168,6 @@ params:
     btnName: "Send Email"
     btnLink: "mailto:vothanhdat20012000@gmail.com"
 
-  # Footer
-  footer:
-    socialNetworks:
-      github: https://github.com/vothanhdat2000
-      linkedin: https://www.linkedin.com/in/vo-thanh-dat-vtd20012000/
   # Footer
   footer:
     socialNetworks:
