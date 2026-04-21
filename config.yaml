@@ -23,7 +23,7 @@ markup:
 
 params:
   title: "VTD Portfolio"
-  description: "Specializing in Infrastructure & Automation"
+  description: "DevOps | SRE | Core Infrastructure"
   favicon: "/fav.png"
   useBootstrapCDN: false
   animate: true
@@ -55,10 +55,10 @@ params:
   # Hero Section
   hero:
     enable: true
-    intro: "Engineering Reliability & Scale"
+    intro: "Treat Operations as Software."
     title: "Võ Thành Đạt"
     subtitle: "DevOps Engineer | Site Reliability Engineer (SRE)"
-    content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft** and **Gameloft**. Expert in orchestrating high-availability systems, CI/CD automation, and hybrid cloud architectures."
+    content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft** and **Gameloft**. Expert in orchestrating high-availability systems, eliminating operational toil, and building resilient hybrid cloud architectures."
     image: /images/profile.jpg
     bottomImage:
       enable: true
@@ -70,7 +70,7 @@ params:
           url: https://www.linkedin.com/in/vo-thanh-dat-vtd20012000/
         - icon: fas fa-envelope
           url: mailto:vothanhdat20012000@gmail.com
-
+          
   # About Section
   about:
     enable: true
@@ -81,23 +81,25 @@ params:
       
       Focusing on building resilient and scalable systems, I specialize in:
       * **Infrastructure as Code:** Managing hybrid environments with Docker, Kubernetes, and Terraform.
-      * **Observability:** Architecting monitoring solutions with Prometheus & Grafana to ensure 99.9% SLA.
-      * **Automation:** Eliminating operational toil using Python, PowerShell, and CI/CD pipelines.
+      * **Observability:** Architecting monitoring solutions with Prometheus & Grafana to ensure 99.9x% SLA.
+      * **Automation:** Eliminating operational toil using Python, Go, PowerShell, and CI/CD pipelines.
 
-      Currently at **Gameloft**, I focus on DevOps practices within Online Technical Support, ensuring high availability for global game services. Previously, I managed Tier-3 critical infrastructure at **Microsoft** (via Itechwx) for Identity and Azure ecosystems.
+      Currently at **Gameloft**, I manage and automate Cloud-native infrastructure, optimizing CI/CD pipelines, and ensuring high availability for critical in-house backend services. Previously, I managed Tier-3 critical infrastructure at **Microsoft** for Identity and Azure ecosystems.
+
+      **Next Milestone:** Deepening expertise in Core Enterprise Infrastructure with active preparation for **CCNA** and **RHCSA** certifications.
 
       Based in Ho Chi Minh City, Vietnam
       vothanhdat20012000@gmail.com | 0938940150
     skills:
       enable: true
-      title: "Core Competencies:"
+      title: "Technical Arsenal"
       items:
-        - "Cloud & Infra: Azure, AWS, Windows Server, Linux"
-        - "Orchestration: Kubernetes (K8s), Docker, Terraform"
-        - "Automation: CI/CD (Azure DevOps), Python, PowerShell, Bash"
-        - "Observability: Prometheus, Grafana"
-        - "Data Platform: SQL, ETL/ELT Pipelines"
-        - "Security: IAM, Entra ID (Azure AD), Compliance"
+        - "Cloud & IaC: AWS, Azure, Terraform, Docker, Kubernetes"
+        - "Core OS: Linux (RHEL/CentOS, Ubuntu), Windows Server"
+        - "Networking: TCP/IP, DNS, DHCP, Network Administration"
+        - "Automation: Go, Python, PowerShell, Bash"
+        - "Observability: Prometheus, Grafana, Incident Management"
+        - "Process & Security: ITIL® 4 Foundation, IAM, Entra ID"
 
   # Experience Section
   experience:
@@ -106,19 +108,19 @@ params:
       - company: "Gameloft"
         companyUrl: "https://www.gameloft.com"
         jobs:
-          - name: "OTS - (DevOps & Infrastructure)"
+          - name: "DevOps Engineer (Core Infrastructure)"
             date: "Nov 2024 - Present"
             content: |
               **Architected** and maintained robust CI/CD pipelines using **Docker** and **Kubernetes (K8s)**, ensuring zero-downtime deployments for production game services.
               
-              - **Engineered** automated operational scripts (Python/Bash) to eliminate manual system maintenance, reducing operational toil by 40%.
-              - **Orchestrated** service health monitoring via **Prometheus** and **Grafana**; proactively resolved critical incidents to maintain 99.9% uptime SLA.
+              - **Engineered** automated operational scripts (Python/Go) to eliminate manual system maintenance, reducing operational toil significantly.
+              - **Orchestrated** service health monitoring via **Prometheus** and **Grafana**; proactively resolved critical incidents to maintain 99.9x% uptime SLA.
               - **Managed** hybrid Linux/Windows infrastructure, ensuring strict network security compliance and high availability.
           
       - company: "Microsoft"
         companyUrl: "https://www.microsoft.com"
         jobs:
-          - name: "TSE L3 | SRE"
+          - name: "Site Reliability Engineer (SRE) | TSE L3"
             date: "Nov 2022 - Nov 2024"
             content: |
               **Managed** Tier 3 critical incidents for core Microsoft Identity (**Entra ID/Active Directory**) and Windows Server ecosystems, adhering to rigorous global SRE standards.
@@ -126,7 +128,7 @@ params:
               - **Developed** advanced **PowerShell automation** tools for log analysis and diagnostics, significantly reducing Mean Time To Resolution (MTTR) for Azure infrastructure issues.
               - **Collaborated** with global engineering teams to drive Root Cause Analysis (RCA) and compliance documentation.
               - **Optimized** incident workflows using **Azure DevOps**, ensuring seamless escalation and resolution processes.
-
+              
   # Projects Section
   projects:
     enable: true
@@ -149,11 +151,16 @@ params:
     enable: true
     title: "Get In Touch"
     content: |-
-      I'm currently open to DevOps, SRE, and Infrastructure opportunities. 
+      I'm currently open to DevOps, SRE, and Enterprise Infrastructure opportunities. 
       Feel free to reach out for collaboration or inquiries!
     btnName: "Send Email"
     btnLink: "mailto:vothanhdat20012000@gmail.com"
 
+  # Footer
+  footer:
+    socialNetworks:
+      github: https://github.com/vothanhdat2000
+      linkedin: https://www.linkedin.com/in/vo-thanh-dat-vtd20012000/
   # Footer
   footer:
     socialNetworks:
