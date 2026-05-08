@@ -24,6 +24,7 @@ markup:
 params:
   title: "VTD Portfolio"
   description: "DevOps | SRE | Core Infrastructure"
+  images: ["/images/og-banner.jpg"]
   favicon: "/fav.png"
   useBootstrapCDN: false
   animate: true
