@@ -140,6 +140,61 @@ params:
               - **Engineered** and optimized high-throughput ETL/ELT data pipelines using Python and SQL, ensuring data integrity.
               - **Automated** database maintenance workflows, reducing manual intervention and improving overall platform stability.
               - **Designed** platform health monitoring solutions to proactively detect performance bottlenecks.
+
+  # Education Section
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Bachelor of Science - Information Technology."
+        school:
+          name: "University of Information Technology (UIT-VNU)."
+          url: "https://www.uit.edu.vn/"
+        date: "2022 - 2025"
+        content: |-
+          **Specialization:** Cloud & Systems Engineering
+          
+          Focusing on cloud infrastructure, system administration, and DevOps practices.
+
+      - title: "Bachelor of Business Administration."
+        school:
+          name: "University of Labour & Social Affairs (ULSA2)"
+          url: "https://ldxh.edu.vn/"
+        date: "2018 - 2022"
+        content: |-
+          **Specialization:** Management Information Systems
+          
+          Business and technology integration, project management, and IT operations.
+
+  # Certifications Section
+  achievements:
+    enable: true
+    title: "Certifications & Achievements"
+    items:
+      - title: CS50's Computer Science
+        content: Harvard University
+        url: "https://certificates.cs50.io/1a5e5664-3b9e-4322-862c-b882b6cd6c57.pdf?size=letter"
+        image: /images/cs50.png
+
+      - title: ITIL 4 Foundation Certificate
+        content: IT Service Management
+        url: "https://certificates.platform.qa.com/bc16c738c9a224794864c675ab226f172532d1d3.pdf"
+        image: /images/ITIL.png
+    
+      - title: AWS Certified Cloud Practitioner (CLF-C02)
+        content: Datacamp
+        url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/43a4eebb95f2699365bce674ccc7953695ca854f"
+        image: /images/aws-cert.png
+
+      - title: Containerization with Docker & Kubernetes
+        content: DataCamp
+        url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f7a0b7db367a36e713eee068b33d338f1e3f659d"
+        image: /images/DOCK&K8S.png
+
+      - title: Google Project Management Specialization
+        content: Coursera
+        url: "https://www.coursera.org/account/accomplishments/specialization/9MKG8SRY3Y8R"
+        image: /images/PM.png
               
   # Projects Section
   projects:
