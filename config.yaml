@@ -23,9 +23,10 @@ markup:
 
 params:
   title: "VTD Portfolio"
-  description: "DevOps | SRE | Core Infrastructure"
-  images: ["/images/og-banner.jpg"]
+  description: "DevOps Engineer | Kubernetes, CI/CD, Observability"
+  images: ["/images/profile.jpg"]
   favicon: "/fav.png"
+  copyright: "Võ Thành Đạt."
   useBootstrapCDN: false
   animate: true
 
@@ -58,8 +59,8 @@ params:
     enable: true
     intro: "Treat Operations as Software."
     title: "Võ Thành Đạt"
-    subtitle: "DevOps Engineer | Site Reliability Engineer (SRE)"
-    content: "Infrastructure and Automation Specialist with a proven track record at **Microsoft**, **Spotify**, and **Gameloft**. Expert in orchestrating high-availability systems, eliminating operational toil, and building resilient hybrid cloud architectures."
+    subtitle: "DevOps Engineer"
+    content: "DevOps engineer with hands-on **Kubernetes** operations for mobile games. Runs CI/CD, cluster upgrades, monitoring and production incident troubleshooting."
     image: /images/profile.jpg
     bottomImage:
       enable: true
@@ -78,29 +79,24 @@ params:
     title: "Professional Summary"
     image: "/images/personal.jpg"
     content: |-
-      I am a **DevOps & SRE Specialist** bridging the gap between Operations and Engineering through advanced automation and cloud architecture.
-      
-      Focusing on building resilient and scalable systems, I specialize in:
-      * **Infrastructure as Code & GitOps:** Managing hybrid environments with Kubernetes, Helm, Terraform, and ArgoCD.
-      * **Observability:** Architecting monitoring solutions with Prometheus & Grafana to ensure 99.9x% SLA.
-      * **Automation:** Eliminating operational toil using Python, Go, PowerShell, and CI/CD pipelines.
+      I am a **DevOps engineer** who came up through the support path: customer chat support, then Microsoft 365 technical support, then **DevOps on Kubernetes** for mobile games at Gameloft.
 
-      Currently at **Gameloft**, I manage and automate Cloud-native infrastructure, optimizing CI/CD workflows via GitOps, and ensuring high availability for critical backend services. Previously, I managed Tier-3 critical infrastructure at **Microsoft** for Identity ecosystems and ensured the reliability of large-scale data platforms at **Spotify**.
+      What I work on:
+      * **Kubernetes operations:** regional clusters, separate staging and production, per-game namespaces, upgrades.
+      * **CI/CD:** pipelines for game services.
+      * **Observability & incidents:** Prometheus, Grafana, kubectl, logs and metrics.
 
-      **Next Milestone:** Deepening expertise in Core Enterprise Infrastructure with active preparation for **CCNA** and **RHCSA** certifications.
+      Comfortable in English with global teams. Self-taught through a second IT degree and Harvard CS50x while working full time. Currently learning **Go** and **Terraform**.
 
-      Based in Ho Chi Minh City, Vietnam
-      vothanhdat20012000@gmail.com | 0938940150
+      Based in Ho Chi Minh City, Vietnam · vothanhdat20012000@gmail.com
     skills:
       enable: true
       title: "Technical Arsenal"
       items:
-        - "Cloud & IaC: AWS, Azure, Terraform, Docker, Kubernetes, Helm Charts"
-        - "Core OS: Linux (RHEL/CentOS, Ubuntu), Windows Server"
-        - "Networking: TCP/IP, DNS, DHCP, Network Administration"
-        - "Automation & GitOps: ArgoCD, GitHub Actions, Go, Python, PowerShell, Bash"
-        - "Observability: Prometheus, Grafana, Incident Management"
-        - "Process & Security: ITIL® 4 Foundation, IAM, Entra ID"
+        - "Cloud & Infrastructure: Kubernetes, Helm, Docker, Terraform, AWS (EKS)"
+        - "Automation & CI/CD: GitHub Actions, Python, Bash"
+        - "Observability: Prometheus, Grafana, Elasticsearch, Kibana"
+        - "Support & Identity: Microsoft 365, Microsoft Entra ID, ticketing and escalation, ITIL 4 practices"
 
   # Experience Section
   experience:
@@ -109,55 +105,46 @@ params:
       - company: "Gameloft"
         companyUrl: "https://www.gameloft.com"
         jobs:
-          - name: "DevOps Engineer (Core Infrastructure)"
-            date: "Nov 2024 - Present"
+          - name: "DevOps Engineer"
+            date: "Feb 2025 - Jun 2026"
             content: |
-              **Optimized** existing CI/CD workflows by transitioning to **GitOps** principles using **ArgoCD**, **Helm Charts**, and **Kubernetes**, ensuring zero-downtime deployments for production game services.
-              
-              - **Engineered** automated operational scripts (Python/Go) to eliminate manual system maintenance, reducing operational toil significantly.
-              - **Orchestrated** service health monitoring via **Prometheus** and **Grafana**; proactively resolved critical incidents to maintain 99.9x% uptime SLA.
-              - **Managed** hybrid Linux/Windows infrastructure, ensuring strict network security compliance and high availability.
-          
-      - company: "Microsoft"
-        companyUrl: "https://www.microsoft.com"
+              - Operated Kubernetes silos for mobile games, one cluster per region, with beta (staging) and gold (production) as separate clusters.
+              - Ran shared federation services as one live instance, and gave each game its own namespace.
+              - Deployed, scaled, and upgraded clusters, and troubleshot production incidents with kubectl, logs, and metrics.
+              - Built and maintained CI/CD pipelines, and tuned monitoring and alerts.
+
+      - company: "iTechwx"
+        companyUrl: "https://itechwx.com/"
         jobs:
-          - name: "Site Reliability Engineer (SRE) | TSE L3"
-            date: "Nov 2022 - Nov 2024"
+          - name: "Technical Support Engineer - Microsoft 365"
+            date: "2024 - Jan 2025"
             content: |
-              **Managed** Tier 3 critical incidents for core Microsoft Identity (**Entra ID/Active Directory**) and Windows Server ecosystems, adhering to rigorous global SRE standards.
-              
-              - **Developed** advanced **PowerShell automation** tools for log analysis and diagnostics, significantly reducing Mean Time To Resolution (MTTR) for Azure infrastructure issues.
-              - **Collaborated** with global engineering teams to drive Root Cause Analysis (RCA) and compliance documentation.
-              - **Optimized** incident workflows using **Azure DevOps**, ensuring seamless escalation and resolution processes.
-      
-      - company: "Spotify"
-        companyUrl: "https://www.spotify.com"
+              - Supported Microsoft 365 business customers on a 24x7 shift rotation, including night shifts.
+
+      - company: "Concentrix"
+        companyUrl: "https://www.concentrix.com/"
         jobs:
-          - name: "Data Platform Engineer"
-            date: "Aug 2021 - Nov 2022"
+          - name: "Advisor I, Chat Support"
+            date: "Dec 2022 - 2024"
             content: |
-              **Maintained** high availability and reliability of large-scale data platforms (Luigi product team), ensuring seamless data flow and infrastructure stability.
-              
-              - **Engineered** and optimized high-throughput ETL/ELT data pipelines using Python and SQL, ensuring data integrity.
-              - **Automated** database maintenance workflows, reducing manual intervention and improving overall platform stability.
-              - **Designed** platform health monitoring solutions to proactively detect performance bottlenecks.
+              - Handled customer chat support on rotating shifts, including night shifts.
 
   # Education Section
   education:
     enable: true
     index: false
     items:
-      - title: "Bachelor of Science - Information Technology."
+      - title: "Bachelor of Science - Information Technology"
         school:
-          name: "University of Information Technology (UIT-VNU)."
+          name: "University of Information Technology (UIT) - VNU-HCM"
           url: "https://www.uit.edu.vn/"
-        date: "2022 - 2025"
+        date: "2023 - 2025"
         content: |-
-          **Specialization:** Cloud & Systems Engineering
+          **Specialization:** Cloud & Systems Engineering · second degree, online
           
           Focusing on cloud infrastructure, system administration, and DevOps practices.
 
-      - title: "Bachelor of Business Administration."
+      - title: "Bachelor of Business Administration"
         school:
           name: "University of Labour & Social Affairs (ULSA2)"
           url: "https://ldxh.edu.vn/"
@@ -170,30 +157,30 @@ params:
   # Certifications Section
   achievements:
     enable: true
-    title: "Certifications & Achievements"
+    title: "Certificates & Courses"
     items:
-      - title: CS50's Computer Science
-        content: Harvard University
+      - title: "CS50x: Introduction to Computer Science"
+        content: "Harvard University · course completion, 2024"
         url: "https://certificates.cs50.io/1a5e5664-3b9e-4322-862c-b882b6cd6c57.pdf?size=letter"
         image: /images/cs50.png
 
-      - title: ITIL 4 Foundation Certificate
-        content: IT Service Management
+      - title: "ITIL 4 Foundation (course)"
+        content: "QA Ltd · May 2024"
         url: "https://certificates.platform.qa.com/bc16c738c9a224794864c675ab226f172532d1d3.pdf"
         image: /images/ITIL.png
     
-      - title: AWS Certified Cloud Practitioner (CLF-C02)
-        content: Datacamp
+      - title: "AWS Cloud Practitioner (CLF-C02) exam prep"
+        content: "DataCamp course · Dec 2024"
         url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/43a4eebb95f2699365bce674ccc7953695ca854f"
         image: /images/aws-cert.png
 
-      - title: Containerization with Docker & Kubernetes
-        content: DataCamp
+      - title: "Containerization and Virtualization with Docker and Kubernetes"
+        content: "DataCamp course · Jan 2025"
         url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f7a0b7db367a36e713eee068b33d338f1e3f659d"
         image: /images/DOCK&K8S.png
 
-      - title: Google Project Management Specialization
-        content: Coursera
+      - title: "Google Project Management Professional Certificate"
+        content: "Google / Coursera · Dec 2024"
         url: "https://www.coursera.org/account/accomplishments/specialization/9MKG8SRY3Y8R"
         image: /images/PM.png
               
@@ -219,7 +206,7 @@ params:
     enable: true
     title: "Get In Touch"
     content: |-
-      I'm currently open to DevOps, SRE, and Enterprise Infrastructure opportunities. 
+      I'm currently open to DevOps and SRE opportunities. 
       Feel free to reach out for collaboration or inquiries!
     btnName: "Send Email"
     btnLink: "mailto:vothanhdat20012000@gmail.com"
