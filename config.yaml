@@ -99,35 +99,6 @@ params:
         - "Support & Identity: Microsoft 365, Microsoft Entra ID, ticketing and escalation, ITIL 4 practices"
 
   # Experience Section
-  experience:
-    enable: true
-    items:
-      - company: "Gameloft"
-        companyUrl: "https://www.gameloft.com"
-        jobs:
-          - name: "DevOps Engineer"
-            date: "Feb 2025 - Jun 2026"
-            content: |
-              - Operated Kubernetes silos for mobile games, one cluster per region, with beta (staging) and gold (production) as separate clusters.
-              - Ran shared federation services as one live instance, and gave each game its own namespace.
-              - Deployed, scaled, and upgraded clusters, and troubleshot production incidents with kubectl, logs, and metrics.
-              - Built and maintained CI/CD pipelines, and tuned monitoring and alerts.
-
-      - company: "iTechwx"
-        companyUrl: "https://itechwx.com/"
-        jobs:
-          - name: "Technical Support Engineer - Microsoft 365"
-            date: "2024 - Jan 2025"
-            content: |
-              - Supported Microsoft 365 business customers on a 24x7 shift rotation, including night shifts.
-
-      - company: "Concentrix"
-        companyUrl: "https://www.concentrix.com/"
-        jobs:
-          - name: "Advisor I, Chat Support"
-            date: "Dec 2022 - 2024"
-            content: |
-              - Handled customer chat support on rotating shifts, including night shifts.
 
   # Education Section
   education:
