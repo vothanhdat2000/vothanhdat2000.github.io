@@ -79,14 +79,13 @@ params:
     title: "Professional Summary"
     image: "/images/personal.jpg"
     content: |-
-      I am a **DevOps engineer** who came up through the support path: customer chat support, then Microsoft 365 technical support, then **DevOps on Kubernetes** for mobile games at Gameloft.
+     
 
       What I work on:
       * **Kubernetes operations:** regional clusters, separate staging and production, per-game namespaces, upgrades.
       * **CI/CD:** pipelines for game services.
       * **Observability & incidents:** Prometheus, Grafana, kubectl, logs and metrics.
 
-      Comfortable in English with global teams. Self-taught through a second IT degree and Harvard CS50x while working full time. Currently learning **Go** and **Terraform**.
 
       Based in Ho Chi Minh City, Vietnam · vothanhdat20012000@gmail.com
     skills:
