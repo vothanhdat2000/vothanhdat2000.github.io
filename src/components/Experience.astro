@@ -1,0 +1,21 @@
+---
+import { experience } from '../data/experience';
+---
+<section class="section" id="experience" aria-labelledby="experience-title">
+  <div class="container">
+    <header class="section-head"><div><p class="section-index">01</p><h2 class="section-title" id="experience-title">Experience</h2><p class="section-desc">Global game infrastructure, Azure incident response and data-platform operations.</p></div><div class="section-actions"><button class="button button-secondary button-sm" type="button" data-expand-all="#timeline"><span data-label>Expand all</span></button></div></header>
+    <ol class="timeline" id="timeline" data-reveal-group>
+      {experience.map(job => <li class:list={['job', job.previousRole ? 'has-progression' : 'is-single']} id={`experience-${job.id}`}>
+        <div class="job-logo" set:html={job.logoHtml} />
+        <div class="job-main">
+          <div class="job-head"><h3 class="job-company">{job.company}</h3><p class="job-company-meta">{job.context}</p></div>
+          <div class="job-roles"><div class="role">
+            <div class="role-head"><h4 class="role-title">{job.role}</h4><p class="role-meta"><span class="role-dates">{job.roleDateLabel}</span></p></div>
+            <p class="role-summary">{job.summary}</p><ul class="highlights">{job.highlights.slice(0, 2).map(text => <li>{text}</li>)}</ul>
+            <details class="more"><summary><span class="when-closed">Details &amp; stack</span><span class="when-open">Less detail</span><svg class="i" aria-hidden="true"><use href="#i-chevron-down" /></svg></summary><div class="more-body"><ul class="highlights">{[...job.highlights.slice(2), ...job.details].map(text => <li>{text}</li>)}</ul><p class="job-tool-detail"><strong>Stack:</strong> {job.tools.join(' · ')}</p></div></details>
+          </div>{job.previousRole && <div class="role previous-role"><div class="role-head"><h4 class="role-title">{job.previousRole.role}</h4><p class="role-meta"><span class="role-dates">{job.previousRole.dateLabel}</span></p></div></div>}</div>
+        </div><p class="job-tenure"><span>{job.dateLabel}</span></p>
+      </li>)}
+    </ol>
+  </div>
+</section>

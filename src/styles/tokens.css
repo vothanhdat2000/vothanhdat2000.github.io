@@ -1,0 +1,92 @@
+/* Design tokens — portfolio prototype v0.1
+   Mỗi token khai báo một lần bằng light-dark(): giá trị được chọn theo color-scheme của phần tử,
+   nên một vùng bất kỳ có thể xem ở theme kia chỉ bằng data-theme="dark|light".
+   Giá trị màu đã kiểm gam sRGB và tương phản WCAG — xem README mục "Màu". */
+
+:root {
+  color-scheme: light dark;
+
+  /* ---------- Neutrals ---------- */
+  --bg:          light-dark(oklch(0.985 0.002 250), oklch(0.165 0.006 262));
+  --surface:     light-dark(oklch(1 0 0),           oklch(0.198 0.007 262));
+  --surface-2:   light-dark(oklch(0.968 0.003 250), oklch(0.228 0.008 262));
+  --line:        light-dark(oklch(0.915 0.004 250), oklch(0.285 0.009 262));
+  --line-strong: light-dark(oklch(0.85 0.006 250),  oklch(0.36 0.01 262));
+  --ink:         light-dark(oklch(0.22 0.014 262),  oklch(0.965 0.003 262));
+  --ink-2:       light-dark(oklch(0.43 0.014 262),  oklch(0.80 0.008 262));
+  --ink-3:       light-dark(oklch(0.53 0.012 262),  oklch(0.68 0.008 262));
+  --on-ink:      var(--bg);
+  --focus:       var(--ink);
+  --shadow:      light-dark(oklch(0.25 0.02 262 / 0.12), oklch(0 0 0 / 0.5));
+  --overlay:     light-dark(oklch(0.25 0.02 262 / 0.3),  oklch(0 0 0 / 0.62));
+
+  /* ---------- Capability palette ----------
+     Bốn hue cách nhau 90° trong OKLCH. Màu = nhóm năng lực, không dùng để trang trí.
+     solid: chấm, vạch, viền nhấn · text: chữ màu (≥ 4.5:1 trên bg/surface/soft)
+     soft: nền tint · line: viền tint */
+  --cloud:      light-dark(oklch(0.62 0.17 255),   oklch(0.70 0.15 255));
+  --cloud-text: light-dark(oklch(0.50 0.15 255),   oklch(0.80 0.10 255));
+  --cloud-soft: light-dark(oklch(0.965 0.014 255), oklch(0.25 0.04 255));
+  --cloud-line: light-dark(oklch(0.86 0.06 255),   oklch(0.40 0.08 255));
+
+  --auto:       light-dark(oklch(0.68 0.14 165),   oklch(0.74 0.13 165));
+  --auto-text:  light-dark(oklch(0.50 0.10 165),   oklch(0.80 0.10 165));
+  --auto-soft:  light-dark(oklch(0.965 0.022 165), oklch(0.25 0.035 165));
+  --auto-line:  light-dark(oklch(0.86 0.06 165),   oklch(0.40 0.07 165));
+
+  --rel:        light-dark(oklch(0.79 0.15 75),    oklch(0.82 0.14 75));
+  --rel-text:   light-dark(oklch(0.52 0.11 75),    oklch(0.84 0.11 75));
+  --rel-soft:   light-dark(oklch(0.97 0.024 75),   oklch(0.26 0.035 75));
+  --rel-line:   light-dark(oklch(0.87 0.07 75),    oklch(0.42 0.07 75));
+
+  --sec:        light-dark(oklch(0.63 0.20 345),   oklch(0.70 0.17 345));
+  --sec-text:   light-dark(oklch(0.50 0.18 345),   oklch(0.80 0.12 345));
+  --sec-soft:   light-dark(oklch(0.965 0.02 345),  oklch(0.25 0.04 345));
+  --sec-line:   light-dark(oklch(0.86 0.06 345),   oklch(0.40 0.08 345));
+
+  --spectrum: linear-gradient(90deg, var(--cloud) 0 25%, var(--auto) 25% 50%, var(--rel) 50% 75%, var(--sec) 75% 100%);
+
+  /* ---------- Typography ---------- */
+  --font-sans: "Be Vietnam Pro", ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+
+  --text-xs: 0.75rem;      /* 12 */
+  --text-sm: 0.875rem;     /* 14 */
+  --text-md: 1rem;         /* 16 */
+  --text-lg: 1.125rem;     /* 18 */
+  --text-xl: 1.3125rem;    /* 21 */
+  --text-2xl: clamp(1.375rem, 1.15rem + 0.9vw, 1.875rem);   /* 22 → 30 */
+  --text-3xl: clamp(1.875rem, 1.35rem + 2vw, 2.875rem);     /* 30 → 46 */
+  --text-display: clamp(2.375rem, 1.45rem + 3.4vw, 4rem);   /* 38 → 64 */
+
+  /* ---------- Space (4px base) ---------- */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;  --space-5: 24px;
+  --space-6: 32px; --space-7: 48px; --space-8: 64px; --space-9: 96px; --space-10: 128px;
+  --section-pad: clamp(64px, 4.5vw + 44px, 120px);
+
+  /* ---------- Radius ---------- */
+  --radius-sm: 6px; --radius-md: 10px; --radius-lg: 16px; --radius-xl: 20px; --radius-pill: 999px;
+
+  /* ---------- Motion ---------- */
+  --dur-1: 120ms;   /* phản hồi: màu, nền */
+  --dur-2: 200ms;   /* hover, focus, toast */
+  --dur-3: 320ms;   /* mở/đóng, đổi vị trí */
+  --dur-4: 560ms;   /* xuất hiện khi cuộn */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --stagger: 60ms;
+
+  /* ---------- Layout ---------- */
+  --container: 1200px;
+  --gutter: clamp(20px, 3vw, 32px);
+  --nav-h: 64px;
+}
+
+[data-theme="light"] { color-scheme: light; }
+[data-theme="dark"]  { color-scheme: dark; }
+
+/* Component nào cũng đọc --c* — gắn data-cap là đổi màu theo nhóm năng lực. */
+[data-cap="cloud"] { --c: var(--cloud); --c-text: var(--cloud-text); --c-soft: var(--cloud-soft); --c-line: var(--cloud-line); }
+[data-cap="auto"]  { --c: var(--auto);  --c-text: var(--auto-text);  --c-soft: var(--auto-soft);  --c-line: var(--auto-line); }
+[data-cap="rel"]   { --c: var(--rel);   --c-text: var(--rel-text);   --c-soft: var(--rel-soft);   --c-line: var(--rel-line); }
+[data-cap="sec"]   { --c: var(--sec);   --c-text: var(--sec-text);   --c-soft: var(--sec-soft);   --c-line: var(--sec-line); }

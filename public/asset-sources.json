@@ -1,0 +1,387 @@
+[
+  {
+    "id": "pizza-sector",
+    "name": "Pizza slice · generic F&B sector illustration",
+    "collection": "Original site illustration",
+    "license": "Original SVG authored for this portfolio; no client brand represented",
+    "sha256": "649ec008bfcd59110fe8ce4c819583ca8fef8c957e1dcbf00244b8df945d9e50"
+  },
+  {
+    "id": "eks",
+    "name": "Amazon Elastic Kubernetes Service",
+    "source": "https://github.com/awslabs/aws-icons-for-plantuml/tree/e26e2c05daf8b6bc4c764669fc2be04c314ccb8c",
+    "collection": "AWS architecture icon repository",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "551826cb5e4fbdb81d0ce01115223c7e79714b902100539ac93d3461b1620727",
+    "guidelines": "https://github.com/awslabs/aws-icons-for-plantuml/tree/e26e2c05daf8b6bc4c764669fc2be04c314ccb8c"
+  },
+  {
+    "id": "ulsa2",
+    "name": "University of Labour and Social Affairs (university identity)",
+    "source": "https://ulsa.edu.vn/",
+    "collection": "Official brand website",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "75b9fb430c7ba66de771359186e4efd246550a6df9cb78999896a63e1f99c2aa",
+    "guidelines": "https://ulsa.edu.vn/"
+  },
+  {
+    "id": "itil",
+    "name": "ITIL",
+    "source": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1",
+    "collection": "Official brand website",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "4d166a4a6b09605e9153310a8886a69091bc635874490a8135a81d8322af15bb",
+    "guidelines": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1"
+  },
+  {
+    "id": "harvard",
+    "name": "Harvard University",
+    "source": "https://www.harvard.edu/",
+    "collection": "Official brand website",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "2cb61f339af6d378bccaba83fe1636151c5d7e421a720f7781305f9171a4eff8",
+    "guidelines": "https://www.harvard.edu/"
+  },
+  {
+    "id": "incident-io",
+    "name": "incident.io",
+    "source": "https://incident.io/brand",
+    "collection": "Official brand website",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "10f959c41e8962ad9f11e6617910c2840344e17190e5d6cb7ccfa2c0eb27567b",
+    "guidelines": "https://incident.io/brand"
+  },
+  {
+    "id": "aws",
+    "name": "Amazon Web Services",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/amazonwebservices",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "5b4d8371d79a5c0d3a27ea4e929f772e68d47f7d267496bf9211d5f60fcf8084",
+    "guidelines": null
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/azure",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "7923db83e3f9755bd412241a683fa996fb7a9d0259b5084de449e6be92f7ca20",
+    "guidelines": null
+  },
+  {
+    "id": "azure-devops",
+    "name": "Azure DevOps",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/azuredevops",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "49122a38457209cda2d22a1e3af1b4ff159b67714d4e7b43899544555ee2823c",
+    "guidelines": null
+  },
+  {
+    "id": "powershell",
+    "name": "PowerShell",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/powershell",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "f72bc9843ff04005045b659f1ce960d03ddf7707fe02cb5d3dee373914a6d750",
+    "guidelines": null
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/kubernetes",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "fb31e4163238978201cfde0601728ee5168b74e476c32c37739bed626fa281ae",
+    "guidelines": null
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/docker",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "3fd830ea69431ed7a0b8d068cd5b34ad3f00a1a78195d50f13ff56713f2462e1",
+    "guidelines": null
+  },
+  {
+    "id": "helm",
+    "name": "Helm",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/helm",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "83efc74139c06f09c29cab6592fdad80c8ce9e5090fc1da3ba39d40686fb511b",
+    "guidelines": null
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/terraform",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "0be6427291ae47f057b75f9010dffd6f58a40f0c83c43606ff68851cef1621dc",
+    "guidelines": null
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/linux",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "cf50ae4a263c6142963fad3561f7cb0311d0d41cc6189eadfb34f81a8a36acb0",
+    "guidelines": null
+  },
+  {
+    "id": "argo-cd",
+    "name": "Argo CD",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/argocd",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "946ce9ce2e6a2513846c2ec90095fd1938ee079d8aa0f5ac2039db7cb37532bb",
+    "guidelines": null
+  },
+  {
+    "id": "gitlab-ci",
+    "name": "GitLab",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/gitlab",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "d057a46d414f4edcb7edf96976ef7b91c2b347a990e99685e48d38de737967b0",
+    "guidelines": null
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/python",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "71493b4a732f0532b3a03a7a95da3ee11a65766367c8303b901ffbe7bf91a3a2",
+    "guidelines": null
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/go",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "d0400ee3d76ee43fa45e84a3b38b5710a9674969eb71af9d5bb59ed7916a3225",
+    "guidelines": null
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/prometheus",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "cae70cfcf9a8b88de32ab1035819d0c7c9a2b278048112f8c9f99dae42b5b657",
+    "guidelines": null
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/grafana",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "2dec200d4e56521bec8dd463173c623b33b8c97e6159cac9b3ed00b6bff0f6ad",
+    "guidelines": null
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/elasticsearch",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "7efc44ea67eac2a877248c0502e498bca8f61de490852c1a5c572db0b5d3f84d",
+    "guidelines": null
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/slack",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "5ff275ef6df5aca7ac8ed3cf95d003015b4b153f99c570bdcaf9d1674bd6aa5c",
+    "guidelines": null
+  },
+  {
+    "id": "github",
+    "name": "GitHub Octocat mark",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/github",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "45262793de6292206a895ed63593cdb1eaed82074173f7f4b5bdb3e427ca805a",
+    "guidelines": null
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/jira",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "e5010dd0056d130e32fa3d0dc589aa1288370b525b4123658ea6eb90f53ca1db",
+    "guidelines": null
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/notion",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "f67ea8a87b563d1da3396c61ff865ae4eb5bc7fe2ffc56e790648d4424874345",
+    "guidelines": null
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/sentry",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "e7cd143bec12baa7cde9e85280326cb6d24f6a4d2eb37d41f35bc3e9fb5f3e1a",
+    "guidelines": null
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/html5",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "34826e5b3315daadf4fa15f723a3c1d5ba4a89277bfd94e22ac4d7d3d54338c5",
+    "guidelines": null
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/css3",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "36b7d94b657d571d3f94042acbf6a4c86a5301a222f83f4b4583ad2acf6e297d",
+    "guidelines": null
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/javascript",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "0656ff65fc8eeacda5c78d7f9ffe91ec1eb919db64f56e0b7dcd460af4bbd36c",
+    "guidelines": null
+  },
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/vscode",
+    "collection": "Devicon",
+    "license": "MIT collection; brand rights remain with their owners",
+    "sha256": "503d580c442a7071aae180d9b4766e312e4600bf0e9d842b30f56d0e614eceb8",
+    "guidelines": null
+  },
+  {
+    "id": "gameloft",
+    "name": "Gameloft",
+    "source": "https://www.gameloft.com/",
+    "collection": "Official brand website",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "45c7303f2f9a05f311f521e67c652b12e10d8a6ad720c75cac5622d66b5cf694",
+    "guidelines": "https://www.gameloft.com/"
+  },
+  {
+    "id": "microsoft",
+    "name": "microsoft",
+    "source": "https://github.com/pheralb/svgl/tree/f9b726cee1d1f3c697a18c880185e89d9a55bb70",
+    "collection": "SVGL",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "726aa11548b3771591ccbd747f744fbc8acc6879594c14edc740f2c0a00f016b",
+    "guidelines": "https://github.com/pheralb/svgl/tree/f9b726cee1d1f3c697a18c880185e89d9a55bb70"
+  },
+  {
+    "id": "google",
+    "name": "google",
+    "source": "https://github.com/pheralb/svgl/tree/f9b726cee1d1f3c697a18c880185e89d9a55bb70",
+    "collection": "SVGL",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "a60266dab17c1c00981c7077fa025aa84c92782e0657ca2f78b7f70cbb8d5a56",
+    "guidelines": "https://github.com/pheralb/svgl/tree/f9b726cee1d1f3c697a18c880185e89d9a55bb70"
+  },
+  {
+    "id": "uit",
+    "name": "University of Information Technology",
+    "source": "https://www.uit.edu.vn/bai-viet/nhan-dien-thuong-hieu",
+    "collection": "Official brand website",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "1ab61bdbbd830b6ca2b02887975ade18728971b8ffc050d23c38b1336b9f153f",
+    "guidelines": "https://www.uit.edu.vn/bai-viet/nhan-dien-thuong-hieu"
+  },
+  {
+    "id": "aks",
+    "name": "Azure Kubernetes Service",
+    "source": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+    "collection": "Microsoft Azure architecture icons",
+    "license": "Microsoft architecture icon terms",
+    "sha256": "81954a481503057498d543a51863b2eb4673284e109662cdc421051d11dba25c",
+    "guidelines": "https://learn.microsoft.com/en-us/azure/architecture/icons/"
+  },
+  {
+    "id": "codex",
+    "name": "OpenAI brand mark used beside Codex",
+    "source": "https://github.com/pheralb/svgl/tree/f9b726cee1d1f3c697a18c880185e89d9a55bb70",
+    "collection": "SVGL",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "71eba8e11d265af0e3375ad610db95b4a5fedf9f07c40e5252e73942b8c5982e",
+    "guidelines": "https://github.com/pheralb/svgl/tree/f9b726cee1d1f3c697a18c880185e89d9a55bb70"
+  },
+  {
+    "id": "entra",
+    "name": "Microsoft Entra ID",
+    "source": "https://learn.microsoft.com/en-us/entra/architecture/architecture-icons",
+    "collection": "Microsoft Entra architecture icons",
+    "license": "Microsoft icon terms",
+    "sha256": "efd9f54562bfb78bf3c77aecdd5fc31b61fce8a1cec78c4370b41fc470e54eda",
+    "guidelines": "https://learn.microsoft.com/en-us/entra/architecture/architecture-icons"
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/mysql",
+    "collection": "Devicon (MIT)",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "f73fa5d6b9da33fbf540ff96f5360c24b6d29d883ecfe6fcaecf89a8d3456067",
+    "guidelines": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/mysql"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/postgresql",
+    "collection": "Devicon (MIT)",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "f220a436258ed014c512ba4f9c0de6b9e5c2c4b55331a0a29f8c7a1a12c36443",
+    "guidelines": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/postgresql"
+  },
+  {
+    "id": "sql-server",
+    "name": "Microsoft SQL Server",
+    "source": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/microsoftsqlserver",
+    "collection": "Devicon (MIT)",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "f52b63cb5ff8c17efc079ae93eb7e2f1a04ca34eb736310c3576b19c0b9db21d",
+    "guidelines": "https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/microsoftsqlserver"
+  },
+  {
+    "id": "sql-generic",
+    "name": "SQL database symbol (generic, not a vendor product mark)",
+    "source": "https://www.svgrepo.com/svg/331760/sql-database-generic",
+    "collection": "SVG Repo; source page lists CC0, embedded Amido attribution retained",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "d63f47b65074ff8ca2b5eaa1cb8323280b28c12061a57b169b0df30521c097d9",
+    "guidelines": "https://www.svgrepo.com/svg/331760/sql-database-generic"
+  },
+  {
+    "id": "mattermost",
+    "name": "Mattermost (light-background variant)",
+    "source": "https://github.com/pheralb/svgl/tree/f9b726cee1d1f3c697a18c880185e89d9a55bb70",
+    "collection": "SVGL",
+    "license": "See source; brand rights remain with owner",
+    "sha256": "84bc3301b54d0e0a7ecc6350a48788a5c8f3a54f7ce83f34cfedc2680c182dc1",
+    "guidelines": "https://github.com/pheralb/svgl/tree/f9b726cee1d1f3c697a18c880185e89d9a55bb70"
+  }
+]

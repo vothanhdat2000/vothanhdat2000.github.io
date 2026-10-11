@@ -1,0 +1,125 @@
+/* Portfolio layout refinements and light-theme contrast. */
+:root {
+  --bg: light-dark(#f1f4f8, oklch(0.165 0.006 262));
+  --surface: light-dark(#ffffff, oklch(0.198 0.007 262));
+  --surface-2: light-dark(#e5ebf2, oklch(0.228 0.008 262));
+  --ink: light-dark(#172131, oklch(0.965 0.003 262));
+  --ink-2: light-dark(#343f50, oklch(0.80 0.008 262));
+  --ink-3: light-dark(#455366, oklch(0.68 0.008 262));
+  --line: light-dark(#c5cdd8, oklch(0.285 0.009 262));
+  --line-strong: light-dark(#93a1b4, oklch(0.36 0.01 262));
+}
+.hero { padding-block: clamp(36px, 6vw, 88px) clamp(40px, 5vw, 64px); border-bottom: 1px solid var(--line); }
+.hero-grid { grid-template-columns: minmax(0, 1fr) 90px; align-items: start; gap: 12px 18px; }
+.hero-copy { display: contents; }
+.hero-meta { grid-column: 1; grid-row: 1; font-size: 12px; }
+.hero .display { grid-column: 1; grid-row: 2; margin: 0; max-width: none; font-size: clamp(36px, 7vw, 48px); line-height: 1.15; text-wrap: initial; }
+.hero-role { grid-column: 1; grid-row: 3; font-size: 20px; font-weight: 500; }
+.hero-about { grid-column: 1 / -1; grid-row: 4; margin-top: 16px; max-width: 52ch; font-size: 17px; line-height: 1.7; }
+.hero-focus { color: var(--ink-2); }
+.hero-learning { display: block; font-size: .85em; color: var(--ink-2); margin-top: 8px; }
+.hero-actions { grid-column: 1 / -1; grid-row: 5; margin-top: 18px; gap: 12px; }
+.hero-actions .button { font-size: 14px; padding-inline: 15px; }
+.hero-portrait { grid-column: 2; grid-row: 1 / span 3; align-self: center; width: 90px; overflow: hidden; border-radius: 16px; background: #fff; }
+.hero-portrait img { width: 100%; height: auto; display: block; }
+.hero > .container:empty { display: none; }
+.job { grid-template-areas: "logo head" "roles roles"; }
+.job .highlights { gap: 8px; }
+.job-tool-detail { font-size: 14px; }
+.areas .area { gap: 16px; }
+.stack-subgroup h4 { font-size: 13px; font-weight: 500; color: var(--ink-2); margin: 0 0 10px; }
+.stack-subgroup h4 { display: flex; align-items: center; gap: 8px; }
+.stack-subgroup h4 .tool-logo { flex: 0 0 28px; width: 28px; height: 28px; }
+.stack-subgroup h4 .brand-svg { width: 20px; height: 20px; }
+.stack-subgroup + .stack-subgroup { border-top: 1px solid var(--line); padding-top: 14px; }
+.area-count { display: none; }
+.compact-tools { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.compact-tools li { display: flex; gap: 10px; align-items: center; min-width: 0; font-size: 14px; font-weight: 500; min-height: 64px; padding: 8px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); }
+.compact-tools .tool-logo { flex: 0 0 38px; width: 38px; height: 38px; border: 1px solid #e8e8e8; border-radius: 10px; background: #fff; }
+.compact-tools .brand-svg { width: 28px; height: 28px; }
+.compact-tools li > span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.stack-brand { display: block; margin-top: 4px; color: var(--ink-2); font-size: 11px; font-weight: 400; }
+.tool-evidence { margin-top: 0; }
+.tool-evidence .tool-list { margin-top: 12px; }
+.evidence-row { display: grid; gap: 4px; padding-block: 10px; border-bottom: 1px solid var(--line); font-size: 13px; }
+.evidence-row strong { font-weight: 500; }
+.evidence-row span { color: var(--ink-3); }
+.craft-banner { margin-top: 24px; }
+.support-stack { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 28px; }
+.support-stack h3 { font-size: 19px; margin-bottom: 10px; }
+.support-stack p { color: var(--ink-2); font-size: 14px; margin-bottom: 18px; }
+.support-stack small { display: block; font-size: 11px; font-weight: 400; color: var(--ink-2); margin-top: 4px; }
+.support-stack > a { margin-top: 18px; }
+@media (min-width: 960px) { .support-stack .compact-tools { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 640px) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr) 160px; gap: 14px 40px; }
+  .hero-portrait { width: 160px; border-radius: 20px; }
+}
+@media (min-width: 768px) {
+  .job { grid-template-areas: "logo head" ". roles"; }
+}
+@media (min-width: 1024px) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr) 256px; align-items: center; column-gap: 100px; }
+  .hero-copy { display: block; }
+  .hero .display { font-size: clamp(48px, 4.5vw, 64px); margin-top: 16px; }
+  .hero-meta { font-size: 14px; }
+  .hero-role { font-size: 28px; margin-top: 16px; }
+  .hero-about { font-size: 19px; margin-top: 24px; }
+  .hero-actions { margin-top: 30px; }
+  .hero-portrait { grid-row: auto; width: 256px; border-radius: 24px; }
+}
+@media (min-width: 1100px) {
+  .job { grid-template-columns: 170px 56px minmax(0, 1fr); grid-template-areas: "tenure logo head" ". . roles"; }
+  .job::before { left: calc(170px + 24px + 27.5px); }
+}
+.content-review-note { padding: 12px 0; border-bottom: 1px solid var(--line); background: var(--surface-2); font-size: 13px; }
+.content-review-note a { display: inline-block; padding-block: 3px; }
+.direction-label { font-size: 14px; color: var(--ink-2); margin-bottom: 14px; }
+.proof-fact { font-size: clamp(19px, 2vw, 24px); line-height: 1.3; }
+.brand-svg { object-fit: contain; width: 24px; height: 24px; }
+.logo-tile .brand-svg { width: 32px; height: 32px; }
+.brand-mask { display: block; background: currentColor; mask: var(--brand-url) center / contain no-repeat; -webkit-mask: var(--brand-url) center / contain no-repeat; }
+.brand-inline { display: block; }
+.brand-inline svg { display: block; width: 100%; height: 100%; }
+.logo-tile:not(.is-monogram), .tool-logo:not(.text-fallback) { background: #fff; border-color: #e8e8e8; }
+.brand-original { filter: none; }
+.text-fallback { font-family: var(--font-mono); font-size: 10px; color: var(--ink-2); }
+.candidate-grid { display: grid; gap: 20px; }
+.candidate-card { padding: 26px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); }
+.candidate-card h3 { margin: 12px 0; font-size: 23px; line-height: 1.3; }
+.candidate-status, .candidate-foot { color: var(--ink-2); font-size: 13px; }
+.candidate-foot { margin-top: 22px; }
+.education-grid { display: grid; gap: 40px; }
+.education-entry { border-bottom: 1px solid var(--line); padding: 20px 0; }
+.education-entry h3 { margin: 10px 0; font-size: 19px; }
+.education-entry .mono { font-size: 13px; color: var(--ink-2); }
+.credential-heading { font-size: 17px; margin: 20px 0 12px; }
+.credential-list { display: grid; gap: 16px; padding-left: 0; list-style: none; }
+.credential-list li { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.credential-list .tool-logo { flex: 0 0 44px; width: 44px; height: 44px; }
+.credential-name { display: block; font-size: 14px; font-weight: 500; }
+.credential-year { display: block; font-size: 12px; color: var(--ink-3); margin-top: 4px; }
+.education-brand { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; }
+.education-brand .logo-tile { flex: 0 0 56px; width: 56px; height: 56px; }
+.education-brand h3 { font-size: 17px; margin-bottom: 0; }
+.education-entry > p { font-size: 14px; color: var(--ink-2); }
+.learning-details { margin-top: 24px; }
+.learning-details .credential-list { margin-top: 20px; }
+.credential-list .mono { font-size: 12px; white-space: nowrap; }
+.email-row { flex-wrap: wrap; }
+.email-link { overflow-wrap: anywhere; min-width: 0; }
+.tool-context { overflow-wrap: anywhere; }
+.review-document { padding-block: 40px; }
+.review-document > h1 { font-size: clamp(28px, 5vw, 46px); margin: 36px 0 20px; line-height: 1.2; }
+.review-document > h2 { margin: 30px 0 12px; }
+.review-document > p { margin: 14px 0; max-width: 70ch; }
+.review-document > button { margin: 12px 0 12px 20px; }
+.asset-grid { display: grid; gap: 16px; margin-top: 32px; }
+.asset-card { padding: 22px; border: 1px solid var(--line); border-radius: var(--radius-lg); }
+.asset-card h2 { font-size: 19px; margin: 14px 0 8px; }
+.asset-card p { font-size: 13px; color: var(--ink-2); overflow-wrap: anywhere; }
+.asset-card a { display: block; margin-top: 10px; font-size: 14px; }
+@media (min-width: 640px) { .asset-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 960px) { .candidate-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .education-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .asset-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+.previous-role { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); }
