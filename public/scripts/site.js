@@ -24,7 +24,13 @@
 
   /* ---------- Theme ---------- */
   const themeButtons = $$('[data-theme-toggle]');
-  const syncTheme = () => themeButtons.forEach(b => b.setAttribute('aria-pressed', String(d.dataset.theme === 'dark')));
+  const syncTheme = () => themeButtons.forEach(b => {
+    const next = d.dataset.theme === 'dark' ? 'light' : 'dark';
+    b.removeAttribute('aria-pressed');
+    b.setAttribute('aria-label', 'Switch to ' + next + ' theme');
+    const label = b.querySelector('[data-theme-label]');
+    if (label) label.textContent = next === 'light' ? 'Light theme' : 'Dark theme';
+  });
   const setTheme = t => { d.dataset.theme = t; store.set('portfolio-theme', t); syncTheme(); };
   const toggleTheme = () => {
     const next = d.dataset.theme === 'dark' ? 'light' : 'dark';

@@ -123,3 +123,25 @@
 @media (min-width: 960px) { .candidate-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .education-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .asset-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
 .previous-role { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); }
+
+.supporting-tools { margin-top: 28px; }
+.supporting-tools p { margin-top: 14px; font-size: 14px; color: var(--ink-2); }
+.stack-build-link { margin-top: 24px; font-size: 14px; }
+.credential-list li > div { min-width: 0; }
+.build-notes h1 { font-size: clamp(34px, 5vw, 60px); line-height: 1.15; letter-spacing: -.04em; max-width: 820px; }
+.build-eyebrow { margin: 40px 0 16px; }
+.build-intro { max-width: 720px; margin-top: 24px; color: var(--ink-2); font-size: 18px; }
+.build-facts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.build-facts span { padding: 6px 12px; border: 1px solid var(--line); border-radius: var(--radius-sm); font-size: 13px; }
+.build-grid, .build-pipeline { display: grid; gap: 20px; }
+.build-grid article, .build-pipeline li { border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); padding: 24px; }
+.build-notes h3 { font-size: 19px; margin-bottom: 12px; }
+.build-grid p, .build-pipeline p, .build-caption { color: var(--ink-2); font-size: 15px; }
+.build-pipeline .mono { display: block; color: var(--cloud-text); margin-bottom: 20px; }
+.build-caption { margin-top: 24px; max-width: 720px; }
+.build-palette { display: flex; gap: 8px; margin-bottom: 24px; }
+.build-palette span { width: 40px; height: 12px; border-radius: 6px; background: var(--cloud); }
+.build-palette span:nth-child(2) { background: var(--auto); }
+.build-palette span:nth-child(3) { background: var(--rel); }
+.build-palette span:nth-child(4) { background: var(--sec); }
+@media (min-width: 768px) { .build-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .build-pipeline { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

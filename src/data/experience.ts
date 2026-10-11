@@ -39,19 +39,20 @@ export const experience: Experience[] = [
     "id": "microsoft",
     "company": "Microsoft",
     "role": "Site Reliability Engineer (SRE)",
-    "context": "Customer Success",
-    "summary": "Azure incident response, Kubernetes and AKS across enterprise customer environments.",
+    "context": "Customer Success · Enterprise APAC",
+    "summary": "Led incident response for enterprise customers using Microsoft 365 and Azure across multiple tenants and regions.",
     "dateLabel": "Nov 2022 – Nov 2024",
     "roleDateLabel": "Nov 2022 – Nov 2024",
     "previousRole": null,
     "logoHtml": "<span class=\"logo-tile brand-original\"><img class=\"brand-svg brand-original\" src=\"/logos/microsoft-color.svg\" alt=\"\" width=\"32\" height=\"32\"></span>",
     "highlights": [
-      "Worked with Kubernetes and Azure Kubernetes Service (AKS) at Microsoft.",
+      "Led response to product and service incidents affecting enterprise customers across APAC, coordinating Tier 3 Technical Support Engineers during investigation and escalation.",
+      "Rotated SRE shifts with teams in the US, Australia and China to maintain incident response coverage across time zones.",
       "Maintained infrastructure with Terraform/Azure DevOps and automated recurring remediation with Python, PowerShell and Azure Runbooks.",
       "Used Geneva and KQL during on-call to investigate Entra ID/Active Directory authentication failures.",
-      "Guided Tier-3 support escalation and worked with global teams on RCA, incident workflows and compliance documentation."
+      "Worked with global teams on root cause analysis, incident workflows and compliance documentation."
     ],
-    "details": [],
+    "details": ["Worked with Kubernetes and Azure Kubernetes Service (AKS) across enterprise customer environments."],
     "tools": [
       "Azure",
       "Kubernetes",
