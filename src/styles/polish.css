@@ -26,6 +26,9 @@
 .job { grid-template-areas: "logo head" "roles roles"; }
 .job .highlights { gap: 8px; }
 .job-tool-detail { font-size: 14px; }
+.role-head { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; }
+.role-meta { white-space: normal; text-wrap: balance; }
+@media (min-width: 1100px) { .job.is-single .role-meta { display: none; } }
 .areas .area { gap: 16px; }
 .stack-subgroup h4 { font-size: 13px; font-weight: 500; color: var(--ink-2); margin: 0 0 10px; }
 .stack-subgroup h4 { display: flex; align-items: center; gap: 8px; }
