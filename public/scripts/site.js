@@ -11,7 +11,7 @@
   };
 
   /* ---------- Hiện dần khi cuộn (đặt đầu tiên để nội dung không bị ẩn nếu phần sau lỗi) ---------- */
-  if (d.classList.contains('js-reveal')) {
+  if (motionOK() && 'IntersectionObserver' in window) {
     $$('[data-reveal-group]').forEach(g => [...g.children].forEach((el, i) => {
       el.setAttribute('data-reveal', '');
       el.style.setProperty('--i', String(Math.min(i, 6)));
@@ -20,7 +20,15 @@
       if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
     }), { rootMargin: '0px 0px -6% 0px', threshold: 0.04 });
     $$('[data-reveal]').forEach(el => io.observe(el));
+    d.classList.add('js-reveal');
   }
+
+  const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+  motionPreference.addEventListener('change', e => {
+    if (params.get('motion') === 'reduce' || params.get('motion') === 'full') return;
+    d.dataset.motion = e.matches ? 'reduce' : 'full';
+    if (e.matches) d.classList.remove('js-reveal');
+  });
 
   /* ---------- Theme ---------- */
   const themeButtons = $$('[data-theme-toggle]');
@@ -89,7 +97,21 @@
   if (menu && menuOpen) {
     menuOpen.addEventListener('click', () => { menu.showModal(); menuOpen.setAttribute('aria-expanded', 'true'); });
     menu.addEventListener('close', () => menuOpen.setAttribute('aria-expanded', 'false'));
-    $$('[data-menu-close], a', menu).forEach(el => el.addEventListener('click', () => menu.close()));
+    $$('[data-menu-close], a', menu).forEach(el => el.addEventListener('click', event => {
+      menu.close();
+      if (el.tagName !== 'A') return;
+      const destination = new URL(el.href);
+      if (destination.origin !== location.origin || destination.pathname !== location.pathname || !destination.hash) return;
+      const section = document.getElementById(destination.hash.slice(1));
+      const target = section?.querySelector('h1, h2') || section;
+      if (target) {
+        event.preventDefault();
+        if (location.hash !== destination.hash) history.pushState(null, '', destination.hash);
+        target.setAttribute('tabindex', '-1');
+        target.focus({ preventScroll: true });
+        section.scrollIntoView({ behavior: motionOK() ? 'smooth' : 'instant' });
+      }
+    }));
     matchMedia('(min-width: 960px)').addEventListener('change', e => { if (e.matches && menu.open) menu.close(); });
   }
 
@@ -105,6 +127,7 @@
   };
   const copyText = async text => {
     try { await navigator.clipboard.writeText(text); return true; } catch {
+      const previousFocus = document.activeElement;
       const ta = Object.assign(document.createElement('textarea'), { value: text });
       ta.setAttribute('readonly', '');
       ta.style.cssText = 'position:fixed;opacity:0;pointer-events:none';
@@ -113,15 +136,26 @@
       let ok = false;
       try { ok = document.execCommand('copy'); } catch { ok = false; }
       ta.remove();
+      previousFocus?.focus({ preventScroll: true });
       return ok;
     }
   };
+  const copyTimers = new WeakMap();
   const copyWithFeedback = async (text, message, btn) => {
     const ok = await copyText(text);
     toast(ok ? message : 'Could not copy — select the text instead');
     if (btn && ok) {
+      clearTimeout(copyTimers.get(btn));
       btn.dataset.state = 'copied';
-      setTimeout(() => { delete btn.dataset.state; }, 2000);
+      const label = $('[data-copy-label]', btn);
+      if (label) {
+        label.dataset.idle ||= label.textContent;
+        label.textContent = 'Copied';
+      }
+      copyTimers.set(btn, setTimeout(() => {
+        delete btn.dataset.state;
+        if (label) label.textContent = label.dataset.idle;
+      }, 2200));
     }
   };
   $$('[data-copy]').forEach(btn => btn.addEventListener('click', () => {
@@ -135,7 +169,11 @@
     if (!scope) return;
     const all = $$('details', scope);
     const label = $('[data-label]', btn);
-    const sync = () => { if (label) label.textContent = all.every(x => x.open) ? 'Collapse all' : 'Expand all'; };
+    const sync = () => {
+      const expanded = all.every(x => x.open);
+      btn.setAttribute('aria-expanded', String(expanded));
+      if (label) label.textContent = expanded ? 'Collapse all' : 'Expand all';
+    };
     btn.addEventListener('click', () => { const open = !all.every(x => x.open); all.forEach(x => { x.open = open; }); sync(); });
     all.forEach(x => x.addEventListener('toggle', sync));
     sync();

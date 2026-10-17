@@ -3,7 +3,7 @@ import { experience } from '../data/experience';
 ---
 <section class="section" id="experience" aria-labelledby="experience-title">
   <div class="container">
-    <header class="section-head"><div><p class="section-index">01</p><h2 class="section-title" id="experience-title">Experience</h2><p class="section-desc">Global game infrastructure, Azure incident response and data-platform operations.</p></div><div class="section-actions"><button class="button button-secondary button-sm" type="button" data-expand-all="#timeline"><span data-label>Expand all</span></button></div></header>
+    <header class="section-head"><div><p class="section-index">01</p><h2 class="section-title" id="experience-title">Experience</h2><p class="section-desc">Global game infrastructure, Azure incident response and data-platform operations.</p></div><div class="section-actions"><button class="button button-secondary button-sm" type="button" data-expand-all="#timeline" aria-controls="timeline"><span data-label>Expand all</span></button></div></header>
     <ol class="timeline" id="timeline" data-reveal-group>
       {experience.map(job => <li class:list={['job', job.previousRole ? 'has-progression' : 'is-single']} id={`experience-${job.id}`}>
         <div class="job-logo" set:html={job.logoHtml} />
